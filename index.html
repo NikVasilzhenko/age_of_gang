@@ -1,0 +1,1830 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Site Title</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <!--Favicons генератор https://www.favicon-generator.org/-->
+    <!--link(rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png")-->
+    <!--link(rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png")-->
+    <!--link(rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png")-->
+    <!--link(rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png")-->
+    <!--link(rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png")-->
+    <!--link(rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png")-->
+    <!--link(rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png")-->
+    <!--link(rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png")-->
+    <!--link(rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png")-->
+    <!--link(rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png")-->
+    <!--link(rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png")-->
+    <!--link(rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png")-->
+    <!--link(rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png")-->
+    <!--link(rel="manifest" href="img/favicon/manifest.json")-->
+    <!--meta(name="msapplication-TileColor" content="#fff")-->
+    <!--meta(name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png")-->
+    <!--meta(name="theme-color" content="#fff")-->
+    <!--    -->
+    <!--//SEO-->
+    <!--meta(name="description" content="Описание")-->
+    <!--meta(name="keywords" content="Ключевые слова через запятую")-->
+    <!--	-->
+    <!--//Open Graph-->
+    <!--link(rel="image_src" href="https://.../img/og/og.jpg")-->
+    <!--meta(property="og:type" content="website")-->
+    <!--meta(property="og:url" content="https://...")-->
+    <!--meta(property="og:image" content="https://.../img/og/og.jpg")-->
+    <!--meta(property="og:image:type" content="image/jpeg")-->
+    <!--meta(property="og:image:width" content="1024")-->
+    <!--meta(property="og:image:height" content="512")    -->
+    <!--meta(property="og:title" content="...")-->
+    <!--meta(property="og:description" content="...")-->
+    <!--meta(property="og:locale" content="Ru-ru")-->
+    <!--meta(property="og:site_name" content="https://...")-->
+    <!--meta(name="twitter:card" content="summary_large_image")-->
+    <!--meta(name="twitter:site" content="https://...")-->
+    <!--meta(name="twitter:title" content="...")-->
+    <!--meta(name="twitter:description" content="...")-->
+    <!--meta(name="twitter:creator" content="...")-->
+    <!--meta(name="twitter:image:src" content="https://.../img/og/twitter.jpg")-->
+    <!--meta(name="twitter:domain" content="https://....")-->
+    <!---->
+    <!--//Цветовое оформление окон браузеров-->
+    <!--meta(name="theme-color" content="#272c7e")-->
+    <!--meta(name="msapplication-navbutton-color" content="#272c7e")-->
+    <!--//стиль панели состояния при полноэкранном режиме-->
+    <!--//default	Белый фон-->
+    <!--//black	Черный фон-->
+    <!--//black-translucent	Прозрачный фон и белый цвет иконок и шрифтов-->
+    <!--meta(name="apple-mobile-web-app-status-bar-style" content="default")-->
+    <!---->
+    <!--//web-app-->
+    <!--meta(name="mobile-web-app-capable" content="yes")-->
+    <!--meta(name="apple-mobile-web-app-capable" content="yes")-->
+    <!--//цвет статусбара-->
+    <!--meta(name="mobile-web-app-status-bar-style" content="black")-->
+    <!--meta(name="apple-mobile-web-app-status-bar-style" content="black")-->
+    <!--//Имя иконки-->
+    <!--meta(name="mobile-web-app-title" content="...")-->
+    <!--meta(name="apple-mobile-web-app-title" content="...")-->
+    <!--//Mask Icon-->
+    <!--link(rel="mask-icon" href="/apple/desktop.svg" color="#00а0ff")-->
+    <!--//В iOS Safari выводит баннер с приложением в App Store.-->
+    <!--meta(name="apple-itunes-app" content="app-id=xxxxxxxxx")-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <main class="main"><header class="header js-header">
+  <div class="container">
+    <button class="btn burger" id="js-burger" title="Menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul class="soc">
+      <li><a href="#" target="_blank" title="Twitter"><img src="img/svg/twitter.svg" alt="Twitter"></a></li>
+      <li><a href="#" target="_blank" title="Instagram"><img src="img/svg/instagram.svg" alt="Instagram"></a></li>
+      <li><a href="#" target="_blank" title="Telegram"><img src="img/svg/telegram.svg" alt="Telegram"></a></li>
+      <li><a href="#" target="_blank" title="Discord"><img src="img/svg/discord.svg" alt="Discord"></a></li>
+    </ul>
+    <div class="header__wrap">
+      <div class="header__bar">
+        <button class="btn--primery header__btn" id="js-my-collection"><span>my collection</span></button>
+        <button class="btn--secondary header__btn" id="js-connect-to-wallet"><span>connect to wallet</span></button>
+      </div>
+    </div>
+  </div>
+</header>
+<div class="bar" id="js-bar">
+  <ul class="soc">
+    <li><a href="#" target="_blank" title="Twitter"><img src="img/svg/twitter.svg" alt="Twitter"></a></li>
+    <li><a href="#" target="_blank" title="Instagram"><img src="img/svg/instagram.svg" alt="Instagram"></a></li>
+    <li><a href="#" target="_blank" title="Telegram"><img src="img/svg/telegram.svg" alt="Telegram"></a></li>
+    <li><a href="#" target="_blank" title="Discord"><img src="img/svg/discord.svg" alt="Discord"></a></li>
+  </ul>
+  <nav class="nav">
+    <ul>
+      <li><a href="#Our_team" class="js-scroll"><span>Team</span></a></li>
+      <li><a href="#FAQ" class="js-scroll"><span>F.A.Q.</span></a></li>      
+      <li><a href="#About_Game" class="js-scroll"><span>Game</span></a></li>
+      <li><a href="#Roadmap" class="js-scroll"><span>Roadmap</span></a></li>      
+      <li><a href="#Rarity" class="js-scroll"><span>Rarity</span></a></li>      
+      <li><a href="#Year_2050_London" class="js-scroll"><span>About</span></a></li>
+      <li><a href="#Characters" class="js-scroll"><span>Characters</span></a></li>
+    </ul>
+  </nav>
+</div>
+<section class="hero" id="Hero">
+  <div class="start-logo" id="js-satrt-logo"><img src="img/pic/logo-min.png" alt=""></div>
+  <div class="main-art" id="js-main-art">
+    <img src="img/pic/1st_screen-min.jpg" alt="">
+    <img class="left-smoke" src="img/pic/left-smoke-min.png" alt="">
+    <img class="right-smoke" src="img/pic/right-smoke-min.png" alt="">
+  </div>
+  <div class="rotate-logo" id="js-rotate-logo"><img src="img/pic/logo-min.png" alt=""></div>
+  <div class="container">
+    <div class="hero__wrap">
+      <div class="hero__main">
+        <h1 class="hero__title">Gentlemens <br>also know <br>how to <br>fight</h1>
+        <button class="btn--main hero__btn"><span>mint</span></button>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="characters" id="Characters">
+  <div class="container">
+    <div class="characters__wrap">
+    <header class="characters__header">
+      <h2 class="sec-title characters__title">Characters</h2>
+      <button class="btn--secondary characters__btn" id="js-buy-now"><span>buy now</span></button>
+    </header>
+    <div class="characters__main">
+      <div class="swiper characters-slider-main" id="js-characters-slider-main">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="characters-slide-main">
+              <div class="characters-slide-main__pic"><img src="img/pic/character-1-min.png" alt=""></div>
+              <div class="characters-slide-main__content">
+                <h3 class="characters-slide-main__title">The Albino Girl</h3>
+                <div class="characters-slide-main__price">4.56 ETH</div>
+                <div class="progbar" style="--progress: 70%"></div>
+                <div class="timer">
+                  <div class="timer__title">End of sales:</div>
+                  <div class="timer__wrap js-timer">
+                    <div class="timer__col">
+                      <div class="timer__val js-hrs">23</div>
+                      <div class="timer__txt">hrs</div>
+                    </div>
+                    <div class="timer__val">:</div>
+                    <div class="timer__col">
+                      <div class="timer__val js-min">08</div>
+                      <div class="timer__txt">min</div>
+                    </div>
+                    <div class="timer__val">:</div>
+                    <div class="timer__col">
+                      <div class="timer__val js-sec">45</div>
+                      <div class="timer__txt">sec</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide-main">
+              <div class="characters-slide-main__pic"><img src="img/pic/character-2-min.png" alt=""></div>
+              <div class="characters-slide-main__content">
+                <h3 class="characters-slide-main__title">The Albino Girl</h3>
+                <div class="characters-slide-main__price">4.56 ETH</div>
+                <div class="progbar" style="--progress: 70%"></div>
+                <div class="timer">
+                  <div class="timer__title">End of sales:</div>
+                  <div class="timer__wrap js-timer">
+                    <div class="timer__col">
+                      <div class="timer__val js-hrs">23</div>
+                      <div class="timer__txt">hrs</div>
+                    </div>
+                    <div class="timer__val">:</div>
+                    <div class="timer__col">
+                      <div class="timer__val js-min">08</div>
+                      <div class="timer__txt">min</div>
+                    </div>
+                    <div class="timer__val">:</div>
+                    <div class="timer__col">
+                      <div class="timer__val js-sec">45</div>
+                      <div class="timer__txt">sec</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide-main">
+              <div class="characters-slide-main__pic"><img src="img/pic/character-3-min.png" alt=""></div>
+              <div class="characters-slide-main__content">
+                <h3 class="characters-slide-main__title">The Albino Girl</h3>
+                <div class="characters-slide-main__price">4.56 ETH</div>
+                <div class="progbar" style="--progress: 70%"></div>
+                <div class="timer">
+                  <div class="timer__title">End of sales:</div>
+                  <div class="timer__wrap js-timer">
+                    <div class="timer__col">
+                      <div class="timer__val js-hrs">23</div>
+                      <div class="timer__txt">hrs</div>
+                    </div>
+                    <div class="timer__val">:</div>
+                    <div class="timer__col">
+                      <div class="timer__val js-min">08</div>
+                      <div class="timer__txt">min</div>
+                    </div>
+                    <div class="timer__val">:</div>
+                    <div class="timer__col">
+                      <div class="timer__val js-sec">45</div>
+                      <div class="timer__txt">sec</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide-main">
+              <div class="characters-slide-main__pic"><img src="img/pic/character-4-min.png" alt=""></div>
+              <div class="characters-slide-main__content">
+                <h3 class="characters-slide-main__title">The Albino Girl</h3>
+                <div class="characters-slide-main__price">4.56 ETH</div>
+                <div class="progbar" style="--progress: 70%"></div>
+                <div class="timer">
+                  <div class="timer__title">End of sales:</div>
+                  <div class="timer__wrap js-timer">
+                    <div class="timer__col">
+                      <div class="timer__val js-hrs">23</div>
+                      <div class="timer__txt">hrs</div>
+                    </div>
+                    <div class="timer__val">:</div>
+                    <div class="timer__col">
+                      <div class="timer__val js-min">08</div>
+                      <div class="timer__txt">min</div>
+                    </div>
+                    <div class="timer__val">:</div>
+                    <div class="timer__col">
+                      <div class="timer__val js-sec">45</div>
+                      <div class="timer__txt">sec</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide-main">
+              <div class="characters-slide-main__pic"><img src="img/pic/character-5-min.png" alt=""></div>
+              <div class="characters-slide-main__content">
+                <h3 class="characters-slide-main__title">The Albino Girl</h3>
+                <div class="characters-slide-main__price">4.56 ETH</div>
+                <div class="progbar" style="--progress: 70%"></div>
+                <div class="timer">
+                  <div class="timer__title">End of sales:</div>
+                  <div class="timer__wrap js-timer">
+                    <div class="timer__col">
+                      <div class="timer__val js-hrs">23</div>
+                      <div class="timer__txt">hrs</div>
+                    </div>
+                    <div class="timer__val">:</div>
+                    <div class="timer__col">
+                      <div class="timer__val js-min">08</div>
+                      <div class="timer__txt">min</div>
+                    </div>
+                    <div class="timer__val">:</div>
+                    <div class="timer__col">
+                      <div class="timer__val js-sec">45</div>
+                      <div class="timer__txt">sec</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide-main">
+              <div class="characters-slide-main__pic"><img src="img/pic/character-6-min.png" alt=""></div>
+              <div class="characters-slide-main__content">
+                <h3 class="characters-slide-main__title">The Albino Girl</h3>
+                <div class="characters-slide-main__price">4.56 ETH</div>
+                <div class="progbar" style="--progress: 70%"></div>
+                <div class="timer">
+                  <div class="timer__title">End of sales:</div>
+                  <div class="timer__wrap js-timer">
+                    <div class="timer__col">
+                      <div class="timer__val js-hrs">23</div>
+                      <div class="timer__txt">hrs</div>
+                    </div>
+                    <div class="timer__val">:</div>
+                    <div class="timer__col">
+                      <div class="timer__val js-min">08</div>
+                      <div class="timer__txt">min</div>
+                    </div>
+                    <div class="timer__val">:</div>
+                    <div class="timer__col">
+                      <div class="timer__val js-sec">45</div>
+                      <div class="timer__txt">sec</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide-main">
+              <div class="characters-slide-main__pic"><img src="img/pic/character-7-min.png" alt=""></div>
+              <div class="characters-slide-main__content">
+                <h3 class="characters-slide-main__title">The Albino Girl</h3>
+                <div class="characters-slide-main__price">4.56 ETH</div>
+                <div class="progbar" style="--progress: 70%"></div>
+                <div class="timer">
+                  <div class="timer__title">End of sales:</div>
+                  <div class="timer__wrap js-timer">
+                    <div class="timer__col">
+                      <div class="timer__val js-hrs">23</div>
+                      <div class="timer__txt">hrs</div>
+                    </div>
+                    <div class="timer__val">:</div>
+                    <div class="timer__col">
+                      <div class="timer__val js-min">08</div>
+                      <div class="timer__txt">min</div>
+                    </div>
+                    <div class="timer__val">:</div>
+                    <div class="timer__col">
+                      <div class="timer__val js-sec">45</div>
+                      <div class="timer__txt">sec</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide-main">
+              <div class="characters-slide-main__pic"><img src="img/pic/character-8-min.png" alt=""></div>
+              <div class="characters-slide-main__content">
+                <h3 class="characters-slide-main__title">The Albino Girl</h3>
+                <div class="characters-slide-main__price">4.56 ETH</div>
+                <div class="progbar" style="--progress: 70%"></div>
+                <div class="timer">
+                  <div class="timer__title">End of sales:</div>
+                  <div class="timer__wrap js-timer">
+                    <div class="timer__col">
+                      <div class="timer__val js-hrs">23</div>
+                      <div class="timer__txt">hrs</div>
+                    </div>
+                    <div class="timer__val">:</div>
+                    <div class="timer__col">
+                      <div class="timer__val js-min">08</div>
+                      <div class="timer__txt">min</div>
+                    </div>
+                    <div class="timer__val">:</div>
+                    <div class="timer__col">
+                      <div class="timer__val js-sec">45</div>
+                      <div class="timer__txt">sec</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide-main">
+              <div class="characters-slide-main__pic"><img src="img/pic/character-9-min.png" alt=""></div>
+              <div class="characters-slide-main__content">
+                <h3 class="characters-slide-main__title">The Albino Girl</h3>
+                <div class="characters-slide-main__price">4.56 ETH</div>
+                <div class="progbar" style="--progress: 70%"></div>
+                <div class="timer">
+                  <div class="timer__title">End of sales:</div>
+                  <div class="timer__wrap js-timer">
+                    <div class="timer__col">
+                      <div class="timer__val js-hrs">23</div>
+                      <div class="timer__txt">hrs</div>
+                    </div>
+                    <div class="timer__val">:</div>
+                    <div class="timer__col">
+                      <div class="timer__val js-min">08</div>
+                      <div class="timer__txt">min</div>
+                    </div>
+                    <div class="timer__val">:</div>
+                    <div class="timer__col">
+                      <div class="timer__val js-sec">45</div>
+                      <div class="timer__txt">sec</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide-main">
+              <div class="characters-slide-main__pic"><img src="img/pic/character-10-min.png" alt=""></div>
+              <div class="characters-slide-main__content">
+                <h3 class="characters-slide-main__title">The Albino Girl</h3>
+                <div class="characters-slide-main__price">4.56 ETH</div>
+                <div class="progbar" style="--progress: 70%"></div>
+                <div class="timer">
+                  <div class="timer__title">End of sales:</div>
+                  <div class="timer__wrap js-timer">
+                    <div class="timer__col">
+                      <div class="timer__val js-hrs">23</div>
+                      <div class="timer__txt">hrs</div>
+                    </div>
+                    <div class="timer__val">:</div>
+                    <div class="timer__col">
+                      <div class="timer__val js-min">08</div>
+                      <div class="timer__txt">min</div>
+                    </div>
+                    <div class="timer__val">:</div>
+                    <div class="timer__col">
+                      <div class="timer__val js-sec">45</div>
+                      <div class="timer__txt">sec</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide-main">
+              <div class="characters-slide-main__pic"><img src="img/pic/character-11-min.png" alt=""></div>
+              <div class="characters-slide-main__content">
+                <h3 class="characters-slide-main__title">The Albino Girl</h3>
+                <div class="characters-slide-main__price">4.56 ETH</div>
+                <div class="progbar" style="--progress: 70%"></div>
+                <div class="timer">
+                  <div class="timer__title">End of sales:</div>
+                  <div class="timer__wrap js-timer">
+                    <div class="timer__col">
+                      <div class="timer__val js-hrs">23</div>
+                      <div class="timer__txt">hrs</div>
+                    </div>
+                    <div class="timer__val">:</div>
+                    <div class="timer__col">
+                      <div class="timer__val js-min">08</div>
+                      <div class="timer__txt">min</div>
+                    </div>
+                    <div class="timer__val">:</div>
+                    <div class="timer__col">
+                      <div class="timer__val js-sec">45</div>
+                      <div class="timer__txt">sec</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper characters-slider characters-slider--1 js-characters-slider" id="js-characters-slider-1">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-11-min.png" alt=""></div>
+            </div>
+          </div> 
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-1-min.png" alt=""></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-2-min.png" alt=""></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-3-min.png" alt=""></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-4-min.png" alt=""></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-5-min.png" alt=""></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-6-min.png" alt=""></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-7-min.png" alt=""></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-8-min.png" alt=""></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-9-min.png" alt=""></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-10-min.png" alt=""></div>
+            </div>
+          </div>          
+        </div>
+      </div>
+      <div class="swiper characters-slider characters-slider--2 js-characters-slider" id="js-characters-slider-2">
+        <div class="swiper-wrapper">          
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-2-min.png" alt=""></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-3-min.png" alt=""></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-4-min.png" alt=""></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-5-min.png" alt=""></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-6-min.png" alt=""></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-7-min.png" alt=""></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-8-min.png" alt=""></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-9-min.png" alt=""></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-10-min.png" alt=""></div>
+            </div>
+          </div>  
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-11-min.png" alt=""></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-1-min.png" alt=""></div>
+            </div>
+          </div>        
+        </div>
+      </div>
+      <div class="swiper characters-slider characters-slider--3 js-characters-slider" id="js-characters-slider-3">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-3-min.png" alt=""></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-4-min.png" alt=""></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-5-min.png" alt=""></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-6-min.png" alt=""></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-7-min.png" alt=""></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-8-min.png" alt=""></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-9-min.png" alt=""></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-10-min.png" alt=""></div>
+            </div>
+          </div>  
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-11-min.png" alt=""></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-1-min.png" alt=""></div>
+            </div>
+          </div> 
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-2-min.png" alt=""></div>
+            </div>
+          </div>       
+        </div>
+      </div>
+      <div class="swiper characters-slider characters-slider--4 js-characters-slider" id="js-characters-slider-4">
+        <div class="swiper-wrapper">          
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-4-min.png" alt=""></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-5-min.png" alt=""></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-6-min.png" alt=""></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-7-min.png" alt=""></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-8-min.png" alt=""></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-9-min.png" alt=""></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-10-min.png" alt=""></div>
+            </div>
+          </div>  
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-11-min.png" alt=""></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-1-min.png" alt=""></div>
+            </div>
+          </div> 
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-2-min.png" alt=""></div>
+            </div>
+          </div> 
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-3-min.png" alt=""></div>
+            </div>
+          </div>      
+        </div>
+      </div>
+      <div class="swiper characters-slider characters-slider--5 js-characters-slider" id="js-characters-slider-5">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-5-min.png" alt=""></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-6-min.png" alt=""></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-7-min.png" alt=""></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-8-min.png" alt=""></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-9-min.png" alt=""></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-10-min.png" alt=""></div>
+            </div>
+          </div>  
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-11-min.png" alt=""></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-1-min.png" alt=""></div>
+            </div>
+          </div> 
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-2-min.png" alt=""></div>
+            </div>
+          </div> 
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-3-min.png" alt=""></div>
+            </div>
+          </div>  
+          <div class="swiper-slide">
+            <div class="characters-slide">
+              <div class="characters-slide__pic"><img src="img/pic/character-4-min.png" alt=""></div>
+            </div>
+          </div>    
+        </div>
+      </div>
+      <button class="characters-sliders-arrow characters-sliders-arrow--prev" id="js-characters-sliders-arrow-prev">
+        <span>
+          <svg width="45" height="19" viewBox="0 0 45 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2 9.5L1.36805 10.275L0.417595 9.5L1.36805 8.72499L2 9.5ZM13.0562 17.225C13.4842 17.574 13.5483 18.2039 13.1993 18.6319C12.8502 19.06 12.2203 19.124 11.7923 18.775L13.0562 17.225ZM11.7923 0.22499C12.2203 -0.124026 12.8502 -0.059975 13.1993 0.368051C13.5483 0.796078 13.4842 1.42599 13.0562 1.77501L11.7923 0.22499ZM45 10.5H2V8.5H45V10.5ZM11.7923 18.775L1.36805 10.275L2.63195 8.72499L13.0562 17.225L11.7923 18.775ZM1.36805 8.72499L11.7923 0.22499L13.0562 1.77501L2.63195 10.275L1.36805 8.72499Z" fill="#fff"/>
+          </svg>
+        </span>
+      </button>
+      <button class="characters-sliders-arrow characters-sliders-arrow--next" id="js-characters-sliders-arrow-next">
+        <span>
+          <svg width="45" height="19" viewBox="0 0 45 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M43 9.5L43.6319 10.275L44.5824 9.5L43.6319 8.72499L43 9.5ZM31.9438 17.225C31.5158 17.574 31.4517 18.2039 31.8007 18.6319C32.1498 19.06 32.7797 19.124 33.2077 18.775L31.9438 17.225ZM33.2077 0.22499C32.7797 -0.124026 32.1498 -0.059975 31.8007 0.368051C31.4517 0.796078 31.5158 1.42599 31.9438 1.77501L33.2077 0.22499ZM0 10.5H43V8.5H0V10.5ZM33.2077 18.775L43.6319 10.275L42.368 8.72499L31.9438 17.225L33.2077 18.775ZM43.6319 8.72499L33.2077 0.22499L31.9438 1.77501L42.368 10.275L43.6319 8.72499Z" fill="#fff"/>
+          </svg>
+        </span>
+      </button>
+    </div>
+    </div>
+  </div>
+</section>
+<section class="whitelist" id="Take_part_in_a_whitelist">
+  <div class="container">
+    <h2 class="sec-title whitelist__title">Take part in a whitelist</h2>
+    <div class="whitelist__wrap">
+      <div class="whitelist-item soldout">
+        <div class="whitelist-item__header">
+          <div class="whitelist-item__round">Pre-sale</div>
+          <div class="whitelist-item__nft">3000 NFT</div>
+        </div>        
+      </div>      
+      <div class="whitelist-item pistol">
+        <div class="whitelist-item__header">
+          <div class="whitelist-item__round">Round 1</div>
+          <div class="whitelist-item__nft">3000 NFT</div>
+        </div>
+        <div class="timer">
+          <div class="timer__wrap js-timer">
+            <div class="timer__col">
+              <div class="timer__val js-hrs">23</div>
+              <div class="timer__txt">hrs</div>
+            </div>
+            <div class="timer__val">:</div>
+            <div class="timer__col">
+              <div class="timer__val js-min">08</div>
+              <div class="timer__txt">min</div>
+            </div>
+            <div class="timer__val">:</div>
+            <div class="timer__col">
+              <div class="timer__val js-sec">45</div>
+              <div class="timer__txt">sec</div>
+            </div>
+          </div>
+        </div>
+        <div class="progbar" style="--progress: 70%"></div>
+        <div class="price"><span>Price:</span> 0.07 ETH</div>
+        <button class="btn--secondary whitelist-item__btn js-whitelist-btn"><span>Whitelist</span></button>
+      </div>      
+      <div class="whitelist-item mashingun">
+        <div class="whitelist-item__header">
+          <div class="whitelist-item__round">Round 2</div>
+          <div class="whitelist-item__nft">3000 NFT</div>
+        </div>
+        <div class="timer">
+          <div class="timer__wrap js-timer">
+            <div class="timer__col">
+              <div class="timer__val js-hrs">23</div>
+              <div class="timer__txt">hrs</div>
+            </div>
+            <div class="timer__val">:</div>
+            <div class="timer__col">
+              <div class="timer__val js-min">08</div>
+              <div class="timer__txt">min</div>
+            </div>
+            <div class="timer__val">:</div>
+            <div class="timer__col">
+              <div class="timer__val js-sec">45</div>
+              <div class="timer__txt">sec</div>
+            </div>
+          </div>
+        </div>
+        <div class="progbar" style="--progress: 70%"></div>
+        <div class="price"><span>Price:</span> 0.07 ETH</div>
+        <button class="btn--secondary whitelist-item__btn js-whitelist-btn"><span>Whitelist</span></button>
+      </div>      
+      <div class="whitelist-item biggun">
+        <div class="whitelist-item__header">
+          <div class="whitelist-item__round">Round 3</div>
+          <div class="whitelist-item__nft">2000 NFT</div>
+        </div>
+        <div class="timer">
+          <div class="timer__wrap js-timer">
+            <div class="timer__col">
+              <div class="timer__val js-hrs">23</div>
+              <div class="timer__txt">hrs</div>
+            </div>
+            <div class="timer__val">:</div>
+            <div class="timer__col">
+              <div class="timer__val js-min">08</div>
+              <div class="timer__txt">min</div>
+            </div>
+            <div class="timer__val">:</div>
+            <div class="timer__col">
+              <div class="timer__val js-sec">45</div>
+              <div class="timer__txt">sec</div>
+            </div>
+          </div>
+        </div>
+        <div class="progbar" style="--progress: 70%"></div>
+        <div class="price"><span>Price:</span> 0.10 ETH</div>
+        <button class="btn--secondary whitelist-item__btn js-whitelist-btn"><span>Whitelist</span></button>
+      </div>
+    </div>
+    <div class="whitelist-sources">
+      <h3 class="whitelist-sources__title">Official Sources</h3>
+      <div class="whitelist-sources__wrap">
+        <div class="whitelist-source">
+          <div class="whitelist-source__land">
+            <div class="whitelist-source__flag"><img src="img/svg/gb.svg" alt=""></div>
+            <div class="whitelist-source__lang">En</div>
+          </div>
+          <div class="whitelist-source__main">
+            <a href="#" class="whitelist-source__link" target="_blank">
+              <span class="whitelist-source__link-wrap">
+                <span class="whitelist-source__link-icn">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18.8047 6.26685C18.7989 6.25625 18.7892 6.24794 18.7775 6.24342C17.4159 5.65777 15.9791 5.24015 14.5029 5.00102C14.4895 4.99869 14.4757 5.00037 14.4633 5.00584C14.451 5.01131 14.4408 5.02029 14.4343 5.03149C14.2386 5.3644 14.061 5.70636 13.9021 6.05605C12.3109 5.8296 10.6924 5.8296 9.10117 6.05605C8.94123 5.70547 8.76077 5.36343 8.56063 5.03149C8.55376 5.02053 8.54354 5.01176 8.53128 5.00633C8.51902 5.00089 8.50531 4.99905 8.49191 5.00102C7.01562 5.23965 5.5787 5.6573 4.21733 6.24345C4.20567 6.24808 4.19584 6.25599 4.18918 6.26608C1.46671 10.0776 0.720923 13.7955 1.08678 17.4673C1.08781 17.4763 1.09076 17.485 1.09545 17.4929C1.10015 17.5008 1.10649 17.5077 1.1141 17.5133C2.69937 18.6137 4.47252 19.4537 6.35787 19.9973C6.37115 20.0011 6.38533 20.0009 6.3985 19.9968C6.41167 19.9928 6.4232 19.9851 6.43155 19.9747C6.83648 19.4581 7.19528 18.9112 7.5043 18.3393C7.50855 18.3315 7.51097 18.3229 7.51142 18.3141C7.51186 18.3053 7.51031 18.2965 7.50687 18.2884C7.50343 18.2802 7.49818 18.2728 7.49147 18.2666C7.48475 18.2605 7.47672 18.2557 7.46791 18.2527C6.90211 18.0497 6.35434 17.8051 5.82976 17.521C5.82023 17.5158 5.81223 17.5084 5.80646 17.4995C5.80069 17.4907 5.79733 17.4807 5.79668 17.4703C5.79602 17.46 5.7981 17.4496 5.80271 17.4402C5.80733 17.4308 5.81435 17.4226 5.82315 17.4163C5.93354 17.339 6.04201 17.2594 6.14848 17.1774C6.15781 17.1702 6.16911 17.1655 6.1811 17.164C6.19309 17.1625 6.20529 17.1642 6.21633 17.1688C9.6531 18.6392 13.3739 18.6392 16.7699 17.1688C16.781 17.1639 16.7933 17.162 16.8055 17.1634C16.8177 17.1647 16.8292 17.1693 16.8387 17.1766C16.9452 17.259 17.054 17.339 17.1648 17.4163C17.1736 17.4225 17.1807 17.4307 17.1854 17.4401C17.1901 17.4495 17.1923 17.4598 17.1917 17.4701C17.1911 17.4805 17.1878 17.4905 17.1821 17.4994C17.1764 17.5083 17.1685 17.5157 17.159 17.521C16.6356 17.8075 16.0874 18.052 15.5201 18.2519C15.5113 18.2551 15.5033 18.2599 15.4966 18.2662C15.4899 18.2724 15.4847 18.2799 15.4814 18.2881C15.478 18.2964 15.4765 18.3052 15.477 18.314C15.4776 18.3229 15.4801 18.3315 15.4844 18.3393C15.7986 18.908 16.1568 19.4543 16.5563 19.9738C16.5644 19.9844 16.5759 19.9924 16.5891 19.9966C16.6023 20.0008 16.6166 20.001 16.63 19.9972C18.5187 19.4554 20.295 18.6154 21.8822 17.5133C21.8899 17.508 21.8964 17.5012 21.9011 17.4934C21.9058 17.4856 21.9087 17.477 21.9095 17.468C22.3475 13.2231 21.1762 9.53569 18.8047 6.26685V6.26685ZM8.01756 15.2315C6.98284 15.2315 6.13026 14.3413 6.13026 13.2481C6.13026 12.1548 6.9663 11.2645 8.01756 11.2645C9.07702 11.2645 9.92135 12.1625 9.90481 13.248C9.90481 14.3413 9.06874 15.2315 8.01756 15.2315V15.2315ZM14.9954 15.2315C13.9608 15.2315 13.1082 14.3413 13.1082 13.2481C13.1082 12.1548 13.9442 11.2645 14.9954 11.2645C16.055 11.2645 16.8993 12.1625 16.8827 13.248C16.8827 14.3413 16.055 15.2315 14.9954 15.2315Z"/>
+                  </svg>
+                </span>
+                <span class="whitelist-source__link-txt">discord</span>
+              </span>
+            </a>
+            <a href="#" class="whitelist-source__link" target="_blank">
+              <span class="whitelist-source__link-wrap">
+                <span class="whitelist-source__link-icn">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.45544 14.5451L9.14115 19.0122C9.59082 19.0122 9.78558 18.817 10.0191 18.5827L12.1274 16.5467L16.4959 19.7794C17.2971 20.2306 17.8616 19.993 18.0777 19.0346L20.9452 5.45712L20.946 5.45632C21.2001 4.25952 20.5177 3.79153 19.7371 4.08512L2.88208 10.6059C1.73176 11.0571 1.74918 11.7051 2.68653 11.9987L6.99568 13.3531L17.005 7.02431C17.476 6.70911 17.9043 6.88351 17.552 7.19871L9.45544 14.5451Z" />
+                  </svg>
+                </span>
+                <span class="whitelist-source__link-txt">telegram</span>
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="whitelist-source">
+          <div class="whitelist-source__land">
+            <div class="whitelist-source__flag"><img src="img/svg/ru.svg" alt=""></div>
+            <div class="whitelist-source__lang">Ru</div>
+          </div>
+          <div class="whitelist-source__main">
+            <a href="#" class="whitelist-source__link" target="_blank">
+              <span class="whitelist-source__link-wrap">
+                <span class="whitelist-source__link-icn">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18.8047 6.26685C18.7989 6.25625 18.7892 6.24794 18.7775 6.24342C17.4159 5.65777 15.9791 5.24015 14.5029 5.00102C14.4895 4.99869 14.4757 5.00037 14.4633 5.00584C14.451 5.01131 14.4408 5.02029 14.4343 5.03149C14.2386 5.3644 14.061 5.70636 13.9021 6.05605C12.3109 5.8296 10.6924 5.8296 9.10117 6.05605C8.94123 5.70547 8.76077 5.36343 8.56063 5.03149C8.55376 5.02053 8.54354 5.01176 8.53128 5.00633C8.51902 5.00089 8.50531 4.99905 8.49191 5.00102C7.01562 5.23965 5.5787 5.6573 4.21733 6.24345C4.20567 6.24808 4.19584 6.25599 4.18918 6.26608C1.46671 10.0776 0.720923 13.7955 1.08678 17.4673C1.08781 17.4763 1.09076 17.485 1.09545 17.4929C1.10015 17.5008 1.10649 17.5077 1.1141 17.5133C2.69937 18.6137 4.47252 19.4537 6.35787 19.9973C6.37115 20.0011 6.38533 20.0009 6.3985 19.9968C6.41167 19.9928 6.4232 19.9851 6.43155 19.9747C6.83648 19.4581 7.19528 18.9112 7.5043 18.3393C7.50855 18.3315 7.51097 18.3229 7.51142 18.3141C7.51186 18.3053 7.51031 18.2965 7.50687 18.2884C7.50343 18.2802 7.49818 18.2728 7.49147 18.2666C7.48475 18.2605 7.47672 18.2557 7.46791 18.2527C6.90211 18.0497 6.35434 17.8051 5.82976 17.521C5.82023 17.5158 5.81223 17.5084 5.80646 17.4995C5.80069 17.4907 5.79733 17.4807 5.79668 17.4703C5.79602 17.46 5.7981 17.4496 5.80271 17.4402C5.80733 17.4308 5.81435 17.4226 5.82315 17.4163C5.93354 17.339 6.04201 17.2594 6.14848 17.1774C6.15781 17.1702 6.16911 17.1655 6.1811 17.164C6.19309 17.1625 6.20529 17.1642 6.21633 17.1688C9.6531 18.6392 13.3739 18.6392 16.7699 17.1688C16.781 17.1639 16.7933 17.162 16.8055 17.1634C16.8177 17.1647 16.8292 17.1693 16.8387 17.1766C16.9452 17.259 17.054 17.339 17.1648 17.4163C17.1736 17.4225 17.1807 17.4307 17.1854 17.4401C17.1901 17.4495 17.1923 17.4598 17.1917 17.4701C17.1911 17.4805 17.1878 17.4905 17.1821 17.4994C17.1764 17.5083 17.1685 17.5157 17.159 17.521C16.6356 17.8075 16.0874 18.052 15.5201 18.2519C15.5113 18.2551 15.5033 18.2599 15.4966 18.2662C15.4899 18.2724 15.4847 18.2799 15.4814 18.2881C15.478 18.2964 15.4765 18.3052 15.477 18.314C15.4776 18.3229 15.4801 18.3315 15.4844 18.3393C15.7986 18.908 16.1568 19.4543 16.5563 19.9738C16.5644 19.9844 16.5759 19.9924 16.5891 19.9966C16.6023 20.0008 16.6166 20.001 16.63 19.9972C18.5187 19.4554 20.295 18.6154 21.8822 17.5133C21.8899 17.508 21.8964 17.5012 21.9011 17.4934C21.9058 17.4856 21.9087 17.477 21.9095 17.468C22.3475 13.2231 21.1762 9.53569 18.8047 6.26685V6.26685ZM8.01756 15.2315C6.98284 15.2315 6.13026 14.3413 6.13026 13.2481C6.13026 12.1548 6.9663 11.2645 8.01756 11.2645C9.07702 11.2645 9.92135 12.1625 9.90481 13.248C9.90481 14.3413 9.06874 15.2315 8.01756 15.2315V15.2315ZM14.9954 15.2315C13.9608 15.2315 13.1082 14.3413 13.1082 13.2481C13.1082 12.1548 13.9442 11.2645 14.9954 11.2645C16.055 11.2645 16.8993 12.1625 16.8827 13.248C16.8827 14.3413 16.055 15.2315 14.9954 15.2315Z"/>
+                  </svg>
+                </span>
+                <span class="whitelist-source__link-txt">discord</span>
+              </span>
+            </a>
+            <a href="#" class="whitelist-source__link" target="_blank">
+              <span class="whitelist-source__link-wrap">
+                <span class="whitelist-source__link-icn">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.45544 14.5451L9.14115 19.0122C9.59082 19.0122 9.78558 18.817 10.0191 18.5827L12.1274 16.5467L16.4959 19.7794C17.2971 20.2306 17.8616 19.993 18.0777 19.0346L20.9452 5.45712L20.946 5.45632C21.2001 4.25952 20.5177 3.79153 19.7371 4.08512L2.88208 10.6059C1.73176 11.0571 1.74918 11.7051 2.68653 11.9987L6.99568 13.3531L17.005 7.02431C17.476 6.70911 17.9043 6.88351 17.552 7.19871L9.45544 14.5451Z" />
+                  </svg>
+                </span>
+                <span class="whitelist-source__link-txt">telegram</span>
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="whitelist-source">
+          <div class="whitelist-source__land">
+            <div class="whitelist-source__flag"><img src="img/svg/turk.svg" alt=""></div>
+            <div class="whitelist-source__lang">Tr</div>
+          </div>
+          <div class="whitelist-source__main">
+            <a href="#" class="whitelist-source__link" target="_blank">
+              <span class="whitelist-source__link-wrap">
+                <span class="whitelist-source__link-icn">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18.8047 6.26685C18.7989 6.25625 18.7892 6.24794 18.7775 6.24342C17.4159 5.65777 15.9791 5.24015 14.5029 5.00102C14.4895 4.99869 14.4757 5.00037 14.4633 5.00584C14.451 5.01131 14.4408 5.02029 14.4343 5.03149C14.2386 5.3644 14.061 5.70636 13.9021 6.05605C12.3109 5.8296 10.6924 5.8296 9.10117 6.05605C8.94123 5.70547 8.76077 5.36343 8.56063 5.03149C8.55376 5.02053 8.54354 5.01176 8.53128 5.00633C8.51902 5.00089 8.50531 4.99905 8.49191 5.00102C7.01562 5.23965 5.5787 5.6573 4.21733 6.24345C4.20567 6.24808 4.19584 6.25599 4.18918 6.26608C1.46671 10.0776 0.720923 13.7955 1.08678 17.4673C1.08781 17.4763 1.09076 17.485 1.09545 17.4929C1.10015 17.5008 1.10649 17.5077 1.1141 17.5133C2.69937 18.6137 4.47252 19.4537 6.35787 19.9973C6.37115 20.0011 6.38533 20.0009 6.3985 19.9968C6.41167 19.9928 6.4232 19.9851 6.43155 19.9747C6.83648 19.4581 7.19528 18.9112 7.5043 18.3393C7.50855 18.3315 7.51097 18.3229 7.51142 18.3141C7.51186 18.3053 7.51031 18.2965 7.50687 18.2884C7.50343 18.2802 7.49818 18.2728 7.49147 18.2666C7.48475 18.2605 7.47672 18.2557 7.46791 18.2527C6.90211 18.0497 6.35434 17.8051 5.82976 17.521C5.82023 17.5158 5.81223 17.5084 5.80646 17.4995C5.80069 17.4907 5.79733 17.4807 5.79668 17.4703C5.79602 17.46 5.7981 17.4496 5.80271 17.4402C5.80733 17.4308 5.81435 17.4226 5.82315 17.4163C5.93354 17.339 6.04201 17.2594 6.14848 17.1774C6.15781 17.1702 6.16911 17.1655 6.1811 17.164C6.19309 17.1625 6.20529 17.1642 6.21633 17.1688C9.6531 18.6392 13.3739 18.6392 16.7699 17.1688C16.781 17.1639 16.7933 17.162 16.8055 17.1634C16.8177 17.1647 16.8292 17.1693 16.8387 17.1766C16.9452 17.259 17.054 17.339 17.1648 17.4163C17.1736 17.4225 17.1807 17.4307 17.1854 17.4401C17.1901 17.4495 17.1923 17.4598 17.1917 17.4701C17.1911 17.4805 17.1878 17.4905 17.1821 17.4994C17.1764 17.5083 17.1685 17.5157 17.159 17.521C16.6356 17.8075 16.0874 18.052 15.5201 18.2519C15.5113 18.2551 15.5033 18.2599 15.4966 18.2662C15.4899 18.2724 15.4847 18.2799 15.4814 18.2881C15.478 18.2964 15.4765 18.3052 15.477 18.314C15.4776 18.3229 15.4801 18.3315 15.4844 18.3393C15.7986 18.908 16.1568 19.4543 16.5563 19.9738C16.5644 19.9844 16.5759 19.9924 16.5891 19.9966C16.6023 20.0008 16.6166 20.001 16.63 19.9972C18.5187 19.4554 20.295 18.6154 21.8822 17.5133C21.8899 17.508 21.8964 17.5012 21.9011 17.4934C21.9058 17.4856 21.9087 17.477 21.9095 17.468C22.3475 13.2231 21.1762 9.53569 18.8047 6.26685V6.26685ZM8.01756 15.2315C6.98284 15.2315 6.13026 14.3413 6.13026 13.2481C6.13026 12.1548 6.9663 11.2645 8.01756 11.2645C9.07702 11.2645 9.92135 12.1625 9.90481 13.248C9.90481 14.3413 9.06874 15.2315 8.01756 15.2315V15.2315ZM14.9954 15.2315C13.9608 15.2315 13.1082 14.3413 13.1082 13.2481C13.1082 12.1548 13.9442 11.2645 14.9954 11.2645C16.055 11.2645 16.8993 12.1625 16.8827 13.248C16.8827 14.3413 16.055 15.2315 14.9954 15.2315Z"/>
+                  </svg>
+                </span>
+                <span class="whitelist-source__link-txt">discord</span>
+              </span>
+            </a>
+            <a href="#" class="whitelist-source__link" target="_blank">
+              <span class="whitelist-source__link-wrap">
+                <span class="whitelist-source__link-icn">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.45544 14.5451L9.14115 19.0122C9.59082 19.0122 9.78558 18.817 10.0191 18.5827L12.1274 16.5467L16.4959 19.7794C17.2971 20.2306 17.8616 19.993 18.0777 19.0346L20.9452 5.45712L20.946 5.45632C21.2001 4.25952 20.5177 3.79153 19.7371 4.08512L2.88208 10.6059C1.73176 11.0571 1.74918 11.7051 2.68653 11.9987L6.99568 13.3531L17.005 7.02431C17.476 6.70911 17.9043 6.88351 17.552 7.19871L9.45544 14.5451Z" />
+                  </svg>
+                </span>
+                <span class="whitelist-source__link-txt">telegram</span>
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="whitelist-source">
+          <div class="whitelist-source__land">
+            <div class="whitelist-source__flag"><img src="img/svg/ph.svg" alt=""></div>
+            <div class="whitelist-source__lang">Ph</div>
+          </div>
+          <div class="whitelist-source__main">
+            <a href="#" class="whitelist-source__link" target="_blank">
+              <span class="whitelist-source__link-wrap">
+                <span class="whitelist-source__link-icn">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18.8047 6.26685C18.7989 6.25625 18.7892 6.24794 18.7775 6.24342C17.4159 5.65777 15.9791 5.24015 14.5029 5.00102C14.4895 4.99869 14.4757 5.00037 14.4633 5.00584C14.451 5.01131 14.4408 5.02029 14.4343 5.03149C14.2386 5.3644 14.061 5.70636 13.9021 6.05605C12.3109 5.8296 10.6924 5.8296 9.10117 6.05605C8.94123 5.70547 8.76077 5.36343 8.56063 5.03149C8.55376 5.02053 8.54354 5.01176 8.53128 5.00633C8.51902 5.00089 8.50531 4.99905 8.49191 5.00102C7.01562 5.23965 5.5787 5.6573 4.21733 6.24345C4.20567 6.24808 4.19584 6.25599 4.18918 6.26608C1.46671 10.0776 0.720923 13.7955 1.08678 17.4673C1.08781 17.4763 1.09076 17.485 1.09545 17.4929C1.10015 17.5008 1.10649 17.5077 1.1141 17.5133C2.69937 18.6137 4.47252 19.4537 6.35787 19.9973C6.37115 20.0011 6.38533 20.0009 6.3985 19.9968C6.41167 19.9928 6.4232 19.9851 6.43155 19.9747C6.83648 19.4581 7.19528 18.9112 7.5043 18.3393C7.50855 18.3315 7.51097 18.3229 7.51142 18.3141C7.51186 18.3053 7.51031 18.2965 7.50687 18.2884C7.50343 18.2802 7.49818 18.2728 7.49147 18.2666C7.48475 18.2605 7.47672 18.2557 7.46791 18.2527C6.90211 18.0497 6.35434 17.8051 5.82976 17.521C5.82023 17.5158 5.81223 17.5084 5.80646 17.4995C5.80069 17.4907 5.79733 17.4807 5.79668 17.4703C5.79602 17.46 5.7981 17.4496 5.80271 17.4402C5.80733 17.4308 5.81435 17.4226 5.82315 17.4163C5.93354 17.339 6.04201 17.2594 6.14848 17.1774C6.15781 17.1702 6.16911 17.1655 6.1811 17.164C6.19309 17.1625 6.20529 17.1642 6.21633 17.1688C9.6531 18.6392 13.3739 18.6392 16.7699 17.1688C16.781 17.1639 16.7933 17.162 16.8055 17.1634C16.8177 17.1647 16.8292 17.1693 16.8387 17.1766C16.9452 17.259 17.054 17.339 17.1648 17.4163C17.1736 17.4225 17.1807 17.4307 17.1854 17.4401C17.1901 17.4495 17.1923 17.4598 17.1917 17.4701C17.1911 17.4805 17.1878 17.4905 17.1821 17.4994C17.1764 17.5083 17.1685 17.5157 17.159 17.521C16.6356 17.8075 16.0874 18.052 15.5201 18.2519C15.5113 18.2551 15.5033 18.2599 15.4966 18.2662C15.4899 18.2724 15.4847 18.2799 15.4814 18.2881C15.478 18.2964 15.4765 18.3052 15.477 18.314C15.4776 18.3229 15.4801 18.3315 15.4844 18.3393C15.7986 18.908 16.1568 19.4543 16.5563 19.9738C16.5644 19.9844 16.5759 19.9924 16.5891 19.9966C16.6023 20.0008 16.6166 20.001 16.63 19.9972C18.5187 19.4554 20.295 18.6154 21.8822 17.5133C21.8899 17.508 21.8964 17.5012 21.9011 17.4934C21.9058 17.4856 21.9087 17.477 21.9095 17.468C22.3475 13.2231 21.1762 9.53569 18.8047 6.26685V6.26685ZM8.01756 15.2315C6.98284 15.2315 6.13026 14.3413 6.13026 13.2481C6.13026 12.1548 6.9663 11.2645 8.01756 11.2645C9.07702 11.2645 9.92135 12.1625 9.90481 13.248C9.90481 14.3413 9.06874 15.2315 8.01756 15.2315V15.2315ZM14.9954 15.2315C13.9608 15.2315 13.1082 14.3413 13.1082 13.2481C13.1082 12.1548 13.9442 11.2645 14.9954 11.2645C16.055 11.2645 16.8993 12.1625 16.8827 13.248C16.8827 14.3413 16.055 15.2315 14.9954 15.2315Z"/>
+                  </svg>
+                </span>
+                <span class="whitelist-source__link-txt">discord</span>
+              </span>
+            </a>
+            <a href="#" class="whitelist-source__link" target="_blank">
+              <span class="whitelist-source__link-wrap">
+                <span class="whitelist-source__link-icn">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.45544 14.5451L9.14115 19.0122C9.59082 19.0122 9.78558 18.817 10.0191 18.5827L12.1274 16.5467L16.4959 19.7794C17.2971 20.2306 17.8616 19.993 18.0777 19.0346L20.9452 5.45712L20.946 5.45632C21.2001 4.25952 20.5177 3.79153 19.7371 4.08512L2.88208 10.6059C1.73176 11.0571 1.74918 11.7051 2.68653 11.9987L6.99568 13.3531L17.005 7.02431C17.476 6.70911 17.9043 6.88351 17.552 7.19871L9.45544 14.5451Z" />
+                  </svg>
+                </span>
+                <span class="whitelist-source__link-txt">telegram</span>
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="whitelist-source">
+          <div class="whitelist-source__land">
+            <div class="whitelist-source__flag"><img src="img/svg/sp.svg" alt=""></div>
+            <div class="whitelist-source__lang">Sp</div>
+          </div>
+          <div class="whitelist-source__main">
+            <a href="#" class="whitelist-source__link" target="_blank">
+              <span class="whitelist-source__link-wrap">
+                <span class="whitelist-source__link-icn">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18.8047 6.26685C18.7989 6.25625 18.7892 6.24794 18.7775 6.24342C17.4159 5.65777 15.9791 5.24015 14.5029 5.00102C14.4895 4.99869 14.4757 5.00037 14.4633 5.00584C14.451 5.01131 14.4408 5.02029 14.4343 5.03149C14.2386 5.3644 14.061 5.70636 13.9021 6.05605C12.3109 5.8296 10.6924 5.8296 9.10117 6.05605C8.94123 5.70547 8.76077 5.36343 8.56063 5.03149C8.55376 5.02053 8.54354 5.01176 8.53128 5.00633C8.51902 5.00089 8.50531 4.99905 8.49191 5.00102C7.01562 5.23965 5.5787 5.6573 4.21733 6.24345C4.20567 6.24808 4.19584 6.25599 4.18918 6.26608C1.46671 10.0776 0.720923 13.7955 1.08678 17.4673C1.08781 17.4763 1.09076 17.485 1.09545 17.4929C1.10015 17.5008 1.10649 17.5077 1.1141 17.5133C2.69937 18.6137 4.47252 19.4537 6.35787 19.9973C6.37115 20.0011 6.38533 20.0009 6.3985 19.9968C6.41167 19.9928 6.4232 19.9851 6.43155 19.9747C6.83648 19.4581 7.19528 18.9112 7.5043 18.3393C7.50855 18.3315 7.51097 18.3229 7.51142 18.3141C7.51186 18.3053 7.51031 18.2965 7.50687 18.2884C7.50343 18.2802 7.49818 18.2728 7.49147 18.2666C7.48475 18.2605 7.47672 18.2557 7.46791 18.2527C6.90211 18.0497 6.35434 17.8051 5.82976 17.521C5.82023 17.5158 5.81223 17.5084 5.80646 17.4995C5.80069 17.4907 5.79733 17.4807 5.79668 17.4703C5.79602 17.46 5.7981 17.4496 5.80271 17.4402C5.80733 17.4308 5.81435 17.4226 5.82315 17.4163C5.93354 17.339 6.04201 17.2594 6.14848 17.1774C6.15781 17.1702 6.16911 17.1655 6.1811 17.164C6.19309 17.1625 6.20529 17.1642 6.21633 17.1688C9.6531 18.6392 13.3739 18.6392 16.7699 17.1688C16.781 17.1639 16.7933 17.162 16.8055 17.1634C16.8177 17.1647 16.8292 17.1693 16.8387 17.1766C16.9452 17.259 17.054 17.339 17.1648 17.4163C17.1736 17.4225 17.1807 17.4307 17.1854 17.4401C17.1901 17.4495 17.1923 17.4598 17.1917 17.4701C17.1911 17.4805 17.1878 17.4905 17.1821 17.4994C17.1764 17.5083 17.1685 17.5157 17.159 17.521C16.6356 17.8075 16.0874 18.052 15.5201 18.2519C15.5113 18.2551 15.5033 18.2599 15.4966 18.2662C15.4899 18.2724 15.4847 18.2799 15.4814 18.2881C15.478 18.2964 15.4765 18.3052 15.477 18.314C15.4776 18.3229 15.4801 18.3315 15.4844 18.3393C15.7986 18.908 16.1568 19.4543 16.5563 19.9738C16.5644 19.9844 16.5759 19.9924 16.5891 19.9966C16.6023 20.0008 16.6166 20.001 16.63 19.9972C18.5187 19.4554 20.295 18.6154 21.8822 17.5133C21.8899 17.508 21.8964 17.5012 21.9011 17.4934C21.9058 17.4856 21.9087 17.477 21.9095 17.468C22.3475 13.2231 21.1762 9.53569 18.8047 6.26685V6.26685ZM8.01756 15.2315C6.98284 15.2315 6.13026 14.3413 6.13026 13.2481C6.13026 12.1548 6.9663 11.2645 8.01756 11.2645C9.07702 11.2645 9.92135 12.1625 9.90481 13.248C9.90481 14.3413 9.06874 15.2315 8.01756 15.2315V15.2315ZM14.9954 15.2315C13.9608 15.2315 13.1082 14.3413 13.1082 13.2481C13.1082 12.1548 13.9442 11.2645 14.9954 11.2645C16.055 11.2645 16.8993 12.1625 16.8827 13.248C16.8827 14.3413 16.055 15.2315 14.9954 15.2315Z"/>
+                  </svg>
+                </span>
+                <span class="whitelist-source__link-txt">discord</span>
+              </span>
+            </a>
+            <a href="#" class="whitelist-source__link" target="_blank">
+              <span class="whitelist-source__link-wrap">
+                <span class="whitelist-source__link-icn">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.45544 14.5451L9.14115 19.0122C9.59082 19.0122 9.78558 18.817 10.0191 18.5827L12.1274 16.5467L16.4959 19.7794C17.2971 20.2306 17.8616 19.993 18.0777 19.0346L20.9452 5.45712L20.946 5.45632C21.2001 4.25952 20.5177 3.79153 19.7371 4.08512L2.88208 10.6059C1.73176 11.0571 1.74918 11.7051 2.68653 11.9987L6.99568 13.3531L17.005 7.02431C17.476 6.70911 17.9043 6.88351 17.552 7.19871L9.45544 14.5451Z" />
+                  </svg>
+                </span>
+                <span class="whitelist-source__link-txt">telegram</span>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="art-1" id="Year_2050_London">
+  <div class="art-1__pic">
+    <img src="img/pic/art-1-min.jpg" alt="">
+  </div>
+  <div class="container">
+    <div class="art-1__wrap sec-txt">
+      <h2>Year 2050, London.</h2>      
+      <p>The world is steeped in anarchy. The city is teeming with gangs and groups that overthrew the government and seized power. You are fresh blood to this city, but do you want to become its main ruler? Your goal is to take control of one of the gangs and climb the hierarchical ladder to become a full-fledged ruler of the city. The bigger your gang, the greater your weight in the criminal world.</p>
+      <p>The new age is coming... The Age of Gangs.</p>
+    </div>
+  </div>
+</section>
+<section class="art-2" id="Welcome_to_the_family">
+  <div class="art-2__pic">
+    <img src="img/pic/art-2-min.jpg" alt="">
+  </div>
+  <div class="container">
+    <div class="art-2__wrap">
+      <h2 class="sec-title art-2__wrap-title">Welcome <br>to the family</h2>
+      <div class="sec-txt art-2__wrap-txt">
+        <p>Become a part of huge community with your own Gang.</p>
+        <p>The larger your collection, the greater your chances of winning the game, the more territories you can capture.</p>
+      </div>
+      <div class="art-2__row">
+        <div class="art-2__row-title">Each Gangster is assembled from:</div>
+        <div class="art-2__row-col">
+          <div class="art-2__row-col-var">120+</div>
+          <div class="art-2__row-col-txt">carefully hand-drawn traits, split into various categories.</div>
+        </div>
+        <div class="art-2__row-col">
+          <div class="art-2__row-col-var">10.000</div>
+          <div class="art-2__row-col-txt">will be assembled through a programmatic approach, giving each Gangster an original look.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="rare" id="How_rare_is_your_gangster">
+  <div class="container">
+    <div class="rare__wrap">
+      <div class="rare__left">
+        <h2 class="sec-title rare__title">How rare is your gangster?</h2>
+        <div class="rare-slider">
+          <div class="rare-slide">
+            <img src="img/pic/skin-0-min.png" alt="">
+            <img src="img/pic/skin-1-min.png" alt="">
+            <img src="img/pic/skin-2-min.png" alt="">
+            <img src="img/pic/skin-3-min.png" alt="">            
+            <img src="img/pic/skin-5-min.png" alt="">
+            <img src="img/pic/skin-6-min.png" alt="">
+            <img src="img/pic/skin-4-min.png" alt="">
+          </div>
+          <div class="rare-slider__pagination">
+            <div class="rare-slider__pagination-item">Body type</div>
+            <div class="rare-slider__pagination-item">Head</div>
+            <div class="rare-slider__pagination-item">Clothes</div>
+            <div class="rare-slider__pagination-item">Weapons</div>
+            <div class="rare-slider__pagination-item">Accessoires</div>
+          </div>
+        </div>
+      </div>
+      <div class="rare__right">
+        <h3 class="rare__subtitle">There are 5 attributes which affect your character rarity.</h3>
+        <div class="rare__each">
+          <h3 class="rare__each-title">Each of these attributes could be:</h3>
+          <div class="rare__each-row">
+            <div class="level white">ordinary</div>
+            <div class="level yellow">medium</div>
+            <div class="level pink">Rare</div>
+          </div>
+        </div>
+        <div class="rare__txt">
+          <p>Summary these attributes show how rare and strong your gangster is. The more points of rarity you have, the higher you rank and the more rare your gangster.</p>
+          <p>But we have 10 super rare gangster sets which are the strongest and the most rare. They are presented in a single copy. With this super rare sets you will be the invincible king of streets.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="roadmap" id="Roadmap">
+  <div class="roadmap__header">
+    <h2 class="sec-title roadmap__title">Roadmap</h2>
+  </div>
+  <div class="roadmap__map" id="js-roadmap-map"><img src="img/pic/map-min.jpg" alt=""></div>
+  <div class="roadmap__main">    
+    <div class="container">
+      <div class="roadmap__wrap">        
+        <div class="roadmap__pic">
+          <div class="roadmap__pic-title">
+            <span>Early December, 2021</span>
+            <span>Late December, 2021</span>
+            <span>First Quarter, 2022</span>
+            <span>Second Quarter, 2022</span>
+          </div>
+          <div class="roadmap__pic-main">
+            <img src="img/pic/map-1-pic-min.jpg" alt="">
+            <img src="img/pic/map-2-pic-min.jpg" alt="">
+            <img src="img/pic/map-3-pic-min.jpg" alt="">
+            <img src="img/pic/map-4-pic-min.jpg" alt="">
+          </div>
+        </div>
+        <div class="roadmap-point roadmap-point--1">
+          <div class="roadmap-point__nubs">
+            <div class="roadmap-point__nub roadmap-point__nub--1">12 hours Mint</div>
+            <div class="roadmap-point__nub roadmap-point__nub--2">01</div>
+          </div>
+          <div class="roadmap-point__baloons">
+            <div class="roadmap-point__baloon roadmap-point__baloon--1">Mint Pass 2k NFT</div>
+            <div class="roadmap-point__baloon roadmap-point__baloon--2">After Sold Out. % of sales is allocated, put into<br> the community pool,and for charity</div>
+            <div class="roadmap-point__baloon roadmap-point__baloon--3">Game Beta test </div>
+            <div class="roadmap-point__baloon roadmap-point__baloon--4">Game release</div>
+          </div>
+          <div class="roadmap-point__sub">10% from mintpass sales to community wallet</div>
+        </div>
+        <div class="roadmap-arrow roadmap-arrow--1" >
+          <div class="roadmap-arrow__wrap">
+            <svg viewBox="0 0 432 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M430.599 87.6953C430.297 84.927 429.627 78.7124 429.109 73.8853C428.587 69.0179 428.122 64.9885 428.066 64.839C427.938 64.4995 427.648 64.2944 427.259 64.2671C426.666 64.2257 426.207 64.7597 425.968 65.7665C425.714 66.8364 425.773 67.4321 427.395 80.0683C428.467 88.4292 428.864 91.7162 428.811 91.8158C428.605 92.2042 428.414 92.035 424.922 88.3719C423.063 86.4213 420.125 83.3392 418.394 81.5228C416.663 79.7064 415.17 78.1807 415.077 78.1324C414.792 77.9853 414.507 78.019 414.424 78.2093C414.272 78.5544 414.328 78.8446 414.627 79.2578C414.786 79.4782 417.711 82.6401 421.125 86.2846C429.276 94.9835 429.176 94.8792 429.481 94.9961C429.936 95.1697 430.223 95.1294 430.537 94.848C430.883 94.5383 431.142 93.8174 431.144 93.1551C431.145 92.9206 430.9 90.4637 430.599 87.6953Z" fill="white"/>
+              <path d="M423.5 79.9998C389.586 -43.744 50.1452 9.88808 0.5 28" stroke="white" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <div class="roadmap-arrow__wrap">
+            <svg width="112" height="139" viewBox="0 0 112 139" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M100.771 132.632C101.65 130.221 103.629 124.811 105.168 120.61C106.72 116.375 107.977 112.851 107.991 112.7C108.023 112.357 107.865 112.038 107.55 111.812C107.071 111.469 106.468 111.663 105.857 112.358C105.208 113.096 105.014 113.612 101.207 124.747C98.6886 132.115 97.677 134.998 97.5921 135.051C97.2612 135.26 97.1707 135.022 95.7469 130.214C94.9889 127.654 93.7912 123.608 93.0854 121.224C92.3796 118.84 91.7543 116.817 91.6958 116.729C91.5181 116.46 91.2661 116.339 91.1183 116.45C90.8503 116.651 90.7789 116.917 90.86 117.41C90.9032 117.673 92.0571 121.776 93.424 126.529C96.6867 137.873 96.6458 137.736 96.8536 137.991C97.1626 138.37 97.4196 138.488 97.7974 138.423C98.213 138.352 98.7237 137.9 98.9966 137.362C99.0931 137.172 99.8916 135.043 100.771 132.632Z" fill="white"/>
+            <path d="M99 115C83.5 16.5 27.5 -3.99995 1 1.81144" stroke="white"/>
+            </svg>
+          </div>
+          <div class="roadmap-arrow__wrap">
+            <svg width="168" height="173" viewBox="0 0 168 173" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M161.529 165.294C159.119 165.751 153.709 166.782 149.507 167.586C145.271 168.396 141.755 169.035 141.613 169.02C141.291 168.986 141.034 168.757 140.898 168.38C140.691 167.807 141.005 167.208 141.78 166.699C142.604 166.157 143.121 166.053 154.196 164.211C161.524 162.992 164.398 162.488 164.466 162.409C164.732 162.1 164.535 161.958 160.444 159.512C158.266 158.209 154.824 156.151 152.795 154.939C150.767 153.726 149.052 152.669 148.984 152.59C148.778 152.35 148.723 152.06 148.859 151.925C149.104 151.682 149.364 151.658 149.798 151.84C150.029 151.938 153.534 153.96 157.586 156.335C167.26 162.005 167.143 161.934 167.33 162.204C167.608 162.605 167.658 162.899 167.513 163.286C167.354 163.711 166.825 164.162 166.27 164.345C166.073 164.41 163.94 164.837 161.529 165.294Z" fill="white"/>
+            <path d="M151 159.5C43.9617 140.102 -4.33464 34.1642 1.9805 1" stroke="white"/>
+            </svg>
+          </div>
+          <div class="roadmap-arrow__wrap">
+            <svg width="266" height="271" viewBox="0 0 266 271" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M255.238 164.85C254.141 162.655 251.685 157.726 249.78 153.896C247.859 150.035 246.237 146.85 246.14 146.746C245.918 146.51 245.58 146.445 245.197 146.565C244.616 146.747 244.329 147.36 244.394 148.285C244.462 149.269 244.692 149.743 249.935 159.671C253.404 166.24 254.743 168.832 254.721 168.935C254.636 169.333 254.404 169.262 249.98 167.489C247.624 166.544 243.902 165.052 241.708 164.173C239.515 163.293 237.635 162.569 237.531 162.563C237.215 162.544 236.951 162.676 236.926 162.865C236.881 163.208 237.02 163.429 237.427 163.664C237.645 163.789 241.377 165.353 245.722 167.139C256.092 171.402 255.965 171.352 256.293 171.337C256.78 171.316 257.045 171.177 257.265 170.828C257.507 170.444 257.545 169.749 257.354 169.197C257.287 169.001 256.334 167.045 255.238 164.85Z" fill="white"/>
+            <path d="M244 160C163.732 86.5794 23.8947 80.3727 1.33116 105.485" stroke="white"/>
+            </svg>
+          </div>
+        </div>
+        <div class="roadmap-point roadmap-point--2">
+          <div class="roadmap-point__nubs">
+            <div class="roadmap-point__nub roadmap-point__nub--1">2 Days after mint pass</div>
+            <div class="roadmap-point__nub roadmap-point__nub--2">02</div>
+          </div>
+          <div class="roadmap-point__baloons">
+            <div class="roadmap-point__baloon roadmap-point__baloon--1">1st drop 3k NFT</div>
+            <div class="roadmap-point__baloon roadmap-point__baloon--2">Gang Club Release</div>
+            <div class="roadmap-point__baloon roadmap-point__baloon--3">Special Airdrops for holders</div>
+            <div class="roadmap-point__baloon roadmap-point__baloon--4">New Merch drop</div>
+          </div>
+        </div>
+        <div class="roadmap-arrow roadmap-arrow--2" >
+          <div class="roadmap-arrow__wrap">
+            <svg width="126" height="96" viewBox="0 0 126 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.9144 91.842C15.3536 90.4984 20.8311 87.4874 25.0868 85.151C29.3779 82.795 32.9178 80.8149 33.0341 80.7053C33.2982 80.4566 33.3761 80.1104 33.2511 79.7402C33.0614 79.1776 32.3915 78.9589 31.3705 79.1261C30.2853 79.3038 29.7584 79.588 18.7202 85.9488C11.4167 90.1576 8.53553 91.7888 8.42328 91.7784C7.9856 91.7379 8.06822 91.4965 10.1048 86.8637C11.1893 84.3968 12.9029 80.4991 13.9129 78.202C14.9228 75.9051 15.7562 73.9398 15.7648 73.8349C15.791 73.5159 15.6503 73.266 15.4424 73.2619C15.0654 73.2547 14.8193 73.4184 14.553 73.8533C14.4109 74.0851 12.6185 78.0012 10.5695 82.5557C5.67873 93.427 5.73649 93.2946 5.74629 93.6216C5.76094 94.1077 5.90888 94.3576 6.28955 94.5393C6.70844 94.7391 7.47322 94.7001 8.08557 94.4475C8.30229 94.3582 10.4753 93.1857 12.9144 91.842Z" fill="white"/>
+            <path d="M17 82.5C58.9052 40.2503 122.828 72.3646 124.5 1" stroke="white" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <div class="roadmap-arrow__wrap">
+            <svg width="235" height="93" viewBox="0 0 235 93" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M17.9071 90.399C20.9986 89.4805 27.9419 87.4226 33.3365 85.826C38.776 84.216 43.2604 82.8602 43.4043 82.782C43.7309 82.6045 43.806 82.3458 43.6134 82.0609C43.3207 81.628 42.4258 81.4358 41.1007 81.5215C39.6925 81.6125 39.0242 81.8063 25.0554 86.175C15.8127 89.0656 12.1643 90.1838 12.0164 90.1715C11.4397 90.1234 11.5291 89.9442 13.8362 86.5227C15.0648 84.7007 17.0061 81.8221 18.1502 80.1256C19.2943 78.4292 20.233 76.9766 20.236 76.8976C20.2455 76.6574 20.0416 76.4628 19.7688 76.4514C19.2742 76.4309 18.9644 76.5449 18.6494 76.8631C18.4814 77.0327 16.4382 79.9221 14.1087 83.2839C8.54842 91.3084 8.61378 91.2106 8.65216 91.4583C8.70934 91.8264 8.92272 92.0212 9.43578 92.1738C10.0003 92.3416 10.9996 92.3427 11.7823 92.1762C12.0594 92.1173 14.8156 91.3175 17.9071 90.399Z" fill="white"/>
+            <path d="M23.249 82.5C105.208 40.2503 230.23 72.3646 233.5 1" stroke="white" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <div class="roadmap-arrow__wrap">
+            <svg width="249" height="234" viewBox="0 0 249 234" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M236.803 73.4711C234.825 75.4742 230.388 79.9755 226.943 83.4739C223.468 87.0015 220.58 89.8951 220.459 89.9702C220.183 90.1406 219.939 90.0682 219.779 89.7681C219.535 89.3122 219.728 88.4977 220.32 87.4814C220.949 86.4013 221.373 85.9658 230.489 77.0269C236.521 71.1123 238.883 68.766 238.931 68.6413C239.118 68.1552 238.934 68.135 235.189 68.2283C233.196 68.2781 230.045 68.3568 228.189 68.4033C226.332 68.4498 224.758 68.4567 224.692 68.4187C224.489 68.3033 224.408 68.0405 224.505 67.8164C224.683 67.4101 224.899 67.2206 225.287 67.1316C225.494 67.084 228.693 66.9292 232.397 66.7874C241.237 66.4488 241.13 66.4511 241.321 66.6086C241.604 66.8429 241.681 67.1135 241.606 67.6021C241.523 68.1398 241.131 68.9398 240.685 69.4808C240.527 69.6723 238.78 71.468 236.803 73.4711Z" fill="white"/>
+            <path d="M229 73.5C139.464 95.5374 50.3762 216.121 1 164.492" stroke="white"/>
+            </svg>
+          </div>
+          <div class="roadmap-arrow__wrap">
+            <svg width="141" height="116" viewBox="0 0 141 116" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.2481 100.619C7.19902 99.7599 11.5764 97.8284 14.9755 96.3264C18.403 94.8119 21.2528 93.5796 21.3735 93.5598C21.6475 93.5148 21.8942 93.6284 22.0613 93.8764C22.3152 94.2534 22.1369 94.7624 21.5605 95.3056C20.948 95.883 20.5303 96.0713 11.5309 99.8273C5.57625 102.313 3.24497 103.306 3.19912 103.38C3.02029 103.665 3.20548 103.727 6.96963 104.642C8.974 105.129 12.141 105.898 14.0074 106.352C15.8737 106.806 17.4563 107.212 17.5241 107.256C17.7303 107.388 17.8169 107.59 17.7227 107.718C17.5519 107.951 17.3379 108.024 16.9496 107.984C16.7426 107.963 13.5278 107.233 9.80551 106.362C0.920717 104.282 1.02807 104.309 0.833773 104.151C0.544933 103.916 0.461757 103.71 0.528218 103.394C0.601412 103.046 0.980653 102.599 1.41888 102.344C1.57398 102.254 3.29715 101.477 5.2481 100.619Z" fill="white"/>
+            <path d="M14.0425 102.343C51.3963 97.4839 154.611 72.2977 138.073 1.58212" stroke="white" stroke-width="1.5"/>
+            </svg>
+          </div>
+        </div>
+        <div class="roadmap-point roadmap-point--3">
+          <div class="roadmap-point__nubs">
+            <div class="roadmap-point__nub roadmap-point__nub--1">4 hours after 1st drop</div>
+            <div class="roadmap-point__nub roadmap-point__nub--2">03</div>
+          </div>
+          <div class="roadmap-point__baloons">
+            <div class="roadmap-point__baloon roadmap-point__baloon--1">2nd drop 3k NFT</div>
+            <div class="roadmap-point__baloon roadmap-point__baloon--2">Merchendize Store open</div>
+            <div class="roadmap-point__baloon roadmap-point__baloon--3">Game Marketplace</div>
+            <div class="roadmap-point__baloon roadmap-point__baloon--4">ransfer Gang Club into game</div>
+          </div>
+          <div class="roadmap-point__sub">When 70% of the Gangs sell out, we’ll be doing a community<br>exclusive raffle to win some Ethereum!</div>
+        </div>
+        <div class="roadmap-arrow roadmap-arrow--3" >
+          <div class="roadmap-arrow__wrap">
+            <svg width="183" height="150" viewBox="0 0 183 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M175.515 131.88C172.98 130.729 167.291 128.14 162.873 126.126C158.418 124.096 154.714 122.443 154.557 122.416C154.2 122.353 153.876 122.497 153.654 122.819C153.316 123.307 153.542 123.975 154.286 124.693C155.078 125.457 155.62 125.709 167.32 130.752C175.061 134.088 178.091 135.422 178.15 135.518C178.379 135.893 178.136 135.971 173.205 137.11C170.58 137.716 166.431 138.673 163.986 139.238C161.541 139.802 159.468 140.309 159.378 140.365C159.107 140.535 158.991 140.797 159.112 140.966C159.332 141.273 159.61 141.372 160.118 141.325C160.389 141.301 164.599 140.395 169.475 139.313C181.113 136.732 180.972 136.765 181.228 136.561C181.609 136.259 181.721 135.991 181.639 135.577C181.548 135.122 181.06 134.532 180.491 134.192C180.29 134.072 178.051 133.032 175.515 131.88Z" fill="white"/>
+            <path d="M164.001 134C115.278 127.088 -19.1717 92.6268 3.50077 0.5" stroke="white" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <div class="roadmap-arrow__wrap">
+            <svg width="140" height="116" viewBox="0 0 140 116" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M134.623 101.567C132.682 100.685 128.328 98.7032 124.946 97.162C121.536 95.608 118.701 94.3428 118.581 94.3216C118.307 94.2734 118.059 94.3841 117.889 94.6302C117.631 95.0042 117.803 95.5153 118.373 96.0651C118.979 96.6495 119.395 96.8427 128.35 100.703C134.275 103.256 136.595 104.277 136.64 104.351C136.816 104.638 136.63 104.698 132.855 105.569C130.845 106.033 127.67 106.766 125.798 107.198C123.927 107.63 122.34 108.018 122.271 108.061C122.063 108.191 121.975 108.392 122.067 108.521C122.235 108.756 122.449 108.832 122.837 108.796C123.045 108.777 126.268 108.084 130 107.256C138.908 105.28 138.8 105.305 138.996 105.149C139.288 104.918 139.373 104.713 139.311 104.396C139.242 104.048 138.867 103.596 138.432 103.336C138.278 103.244 136.564 102.448 134.623 101.567Z" fill="white"/>
+            <path d="M125.811 103.189C88.5159 97.8981 -14.4003 71.5195 2.95461 1" stroke="white" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <div class="roadmap-arrow__wrap">
+            <svg width="140" height="116" viewBox="0 0 140 116" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M134.623 101.567C132.682 100.685 128.328 98.7032 124.946 97.162C121.536 95.608 118.701 94.3428 118.581 94.3216C118.307 94.2734 118.059 94.3841 117.889 94.6302C117.631 95.0042 117.803 95.5153 118.373 96.0651C118.979 96.6495 119.395 96.8427 128.35 100.703C134.275 103.256 136.595 104.277 136.64 104.351C136.816 104.638 136.63 104.698 132.855 105.569C130.845 106.033 127.67 106.766 125.798 107.198C123.927 107.63 122.34 108.018 122.271 108.061C122.063 108.191 121.975 108.392 122.067 108.521C122.235 108.756 122.449 108.832 122.837 108.796C123.045 108.777 126.268 108.084 130 107.256C138.908 105.28 138.8 105.305 138.996 105.149C139.288 104.918 139.373 104.713 139.311 104.396C139.242 104.048 138.867 103.596 138.432 103.336C138.278 103.244 136.564 102.448 134.623 101.567Z" fill="white"/>
+            <path d="M125.811 103.189C88.5159 97.8981 -14.4003 71.5195 2.95461 1" stroke="white" stroke-width="1.5"/>
+            </svg>
+          </div>
+        </div>
+        <div class="roadmap-point roadmap-point--4">
+          <div class="roadmap-point__nubs">
+            <div class="roadmap-point__nub roadmap-point__nub--1">4 hours after 2nd drop</div>
+            <div class="roadmap-point__nub roadmap-point__nub--2">04</div>
+          </div>
+          <div class="roadmap-point__baloons">
+            <div class="roadmap-point__baloon roadmap-point__baloon--1">3rd drop 2k NFT</div>
+            <div class="roadmap-point__baloon roadmap-point__baloon--2">Game Information, First Look</div>
+            <div class="roadmap-point__baloon roadmap-point__baloon--3">New game mode release</div>
+          </div>
+          <div class="roadmap-point__sub">Bonus airdrop after Sold out</div>
+        </div>
+        <div class="roadmap-arrow roadmap-arrow--4" >
+          <div class="roadmap-arrow__wrap">
+            <svg width="247" height="140" viewBox="0 0 247 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M234.682 80.5578C232.2 81.3847 226.629 83.2455 222.301 84.693C217.938 86.1525 214.327 87.3337 214.195 87.3448C213.894 87.3699 213.723 87.2071 213.716 86.891C213.706 86.4106 214.209 85.8169 215.127 85.2243C216.103 84.5944 216.638 84.412 227.954 80.8451C235.442 78.485 238.386 77.5358 238.479 77.4527C238.838 77.1287 238.695 77.0345 235.553 75.5352C233.88 74.7368 231.237 73.4755 229.68 72.7322C228.122 71.9889 226.815 71.332 226.776 71.2725C226.656 71.0914 226.7 70.8395 226.875 70.6951C227.193 70.4333 227.452 70.3673 227.811 70.4568C228.002 70.5045 230.718 71.7234 233.846 73.1655C241.313 76.6076 241.223 76.5644 241.315 76.7751C241.45 77.0883 241.401 77.3451 241.133 77.7182C240.838 78.1288 240.176 78.6264 239.579 78.8869C239.367 78.9791 237.164 79.7311 234.682 80.5578Z" fill="white"/>
+            <path d="M228.204 77.2963C144.748 57.8514 20.166 120.237 1 56.6727" stroke="white"/>
+            </svg>
+          </div>
+        </div>
+        <div class="roadmap-point roadmap-point--5">
+          <div class="roadmap-point__nubs">
+            <div class="roadmap-point__nub roadmap-point__nub--1">05</div>
+          </div>
+          <div class="roadmap-point__baloons">
+            <div class="roadmap-point__baloon roadmap-point__baloon--1">eason 2 Game Announcement. <br>Season 2 Gangs NFT Announcement</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="about" id="About_Game">
+  <div class="container">
+    <div class="about__wrap">
+      <div class="about__art" id="js-about-art">
+        <img src="img/pic/art-3-min.jpg" alt="">
+      </div>
+      <div class="about__top">
+        <div class="about__top-left">
+          <h2 class="sec-title about__title">About Game</h2>
+          <ul class="about__list">
+            <li>Tactic Play to earn action game with a completely new experience from gameplay. Feel like a real gangster on the battlefield.</li>
+            <li>Take command of a squad of gangsters, capture territories, control the city, destroy other bands and gang squads. </li>
+            <li>Dynamic PVP and PVE battles.</li> 
+            <li>Earn respect, money and in-game currency to build an empire.</li>
+          </ul>
+        </div>
+        <div class="about__top-right">
+          <div class="about__top-txt">
+            <p>Depending on your traits your character will be stronger, faster or more respectful in your gang. Tactics and competent use of character characteristics and perks will allow you to win in battle. <br>To participate in the capturing of territories or gang battles you need at least 4 characters. <br>1 Commander and 3 on battle field. You can collect your unique gang with perks and abilities which will be helpful for all your team. If you buy a new strong gangster you can change your active battle team.</p> 
+            <p>Having 2 average fighters, you can try to move them up the hierarchical ladder. And maybe you will get a new unique and stronger gangster with improved skills.</p> 
+            <p>But don't forget, not everyone will be able to win and survive in such battles.</p>
+          </div>
+        </div>
+      </div>      
+    </div>
+  </div>
+</section>
+<section class="about" id="Rarity">
+  <div class="container">
+    <div class="about__wrap">
+      <div class="about__bottom">
+        <div class="about-shem">
+          <div class="about-shem__pic"><img src="img/pic/about-min.png" alt=""></div>
+          <div class="about-shem__item about-shem__item--left about-shem__item--1"> <span><span>Rarity</span></span></div>
+          <div class="about-shem__item about-shem__item--left about-shem__item--2"> <span><span>Character</span></span></div>
+          <div class="about-shem__item about-shem__item--left about-shem__item--3"> <span><span>Gangster ID</span></span></div>
+          <div class="about-shem__item about-shem__item--left about-shem__item--4"> <span><span>Stats</span></span></div>
+          <div class="about-shem__item about-shem__item--right about-shem__item--5"><span><span>Body type</span></span></div>
+          <div class="about-shem__item about-shem__item--right about-shem__item--6"><span><span>Hit points</span></span></div>
+        </div>
+        <div class="about__bottom-txt">
+          <img src="img/pic/about-pic-min.jpg" alt="">
+          <p>Become the leader of your own gang and go to war on rivals.</p>
+          <p>Build a collection of gang members, the bigger the gang, the more power in your hands.</p>
+          <p>Try to get the rarest bosses.</p>
+          <p>Each gangster is unique with special abilities and perks.</p>
+          <p>Every detail can help you in your war versus other players.</p>
+          <p>Combine abilities of your gangsters in team battles.</p>
+          <p>4 classes of characters with own abilities.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="faq-sec" id="FAQ">
+  <div class="container">
+    <div class="faq-sec__header">
+      <h2 class="sec-title faq-sec__title">F.A.Q.</h2>
+      <div class="faq">
+        <div class="faq__col">
+          <div class="faq-item">
+            <div class="faq-item__title js-faq-title">What is The Age of Gangs?</div>
+            <div class="faq-item__hide">
+              <p>The Age of Gangs is a unique NFT collection with references to contemporary popular culture in which each character is one of a kind.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-item__title js-faq-title">What are NFTs?</div>
+            <div class="faq-item__hide">
+              <p>An NFT is a "non-fungible token", a unique digital asset that can be verified in a blockchain.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-item__title js-faq-title">What blockchain are your NFTs on?</div>
+            <div class="faq-item__hide">
+              <p>On Ethereum, in the ERC-1155 format.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-item__title js-faq-title">How are gangsters useful in The Age of Gangs?</div>
+            <div class="faq-item__hide">
+              <p>Gangsters will serve not only as NFTs for sale on OpenSea, but also as characters in the game universe. We will also be adding other useful features to The Age of Gangs series as we progress!</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-item__title js-faq-title">How do I buy characters from The Age of Gangs collection?</div>
+            <div class="faq-item__hide">
+              <p>You will need to create a Metamask wallet and deposit funds into it through ETH. At the specified time, go to the project site and use the MINT button to collect NFT gangsters. You also need to consider the ETH fee to secure your transaction on the blockchain.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-item__title js-faq-title">How do I see the NFT gangsters that I've purchased?</div>
+            <div class="faq-item__hide">
+              <p>After purchase, your gangsters will appear in the My Collection tab.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-item__title js-faq-title">What are the rarity grades in The Age of Gangs collection?</div>
+            <div class="faq-item__hide">
+              <p>There are 3 in total: <br>- Ordinary <br>- Medium <br>- Rare</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-item__title js-faq-title">How much does rarity matter?</div>
+            <div class="faq-item__hide">
+              <p>Each gangster is unique not only by its metadata, but also by its appearance. Some Gangsters, however, are much rarer and when it comes to the game universe, you can get more rewards.</p>
+            </div>
+          </div>
+        </div>
+        <div class="faq__col">
+          <div class="faq-item">
+            <div class="faq-item__title js-faq-title">How will I know if I got rare gangsters?</div>
+            <div class="faq-item__hide">
+              <p>The rarity of a gangster can be checked here:</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-item__title js-faq-title">Can anyone buy an NFT?</div>
+            <div class="faq-item__hide">
+              <p>Yes, but you need to be an active member of the community and apply to the white list.</p>
+              <p>Presale whitelist- … <br>Whitelist for all- …</p>
+              <p>Only the most active users will get access to the presale.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-item__title js-faq-title">How many rounds will there be and how will the price change?</div>
+            <div class="faq-item__hide">
+              <p>Presale, 3 total rounds, and airdrop. The price is set to increase with each round. The more active you are in the community, the more likely you are to get an NFT character at 0.03 ETH at the presale stage.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-item__title js-faq-title">How many NFTs will be available and at what price?</div>
+            <div class="faq-item__hide">
+              <p>In total, there will be 10,000 NFT characters. <br>During the presale, there will be 1,500 NFTs at 0.03 ETH. <br>In the first round, there will be 3,000 NFTs at 0.05 ETH. <br>In the second round, there will be 2,500 NFTs at 0.07 ETH. <br>In the third round, there will be 2,500 NFTs at 0.09 ETH. <br>After all the rounds, the team at The Age of Gangs will give away 500 NFT in the airdrop.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-item__title js-faq-title">How many total NFTs can I buy?</div>
+            <div class="faq-item__hide">
+              <p>You can buy anywhere between 1 and 5 NFTs per round as well as participate in every round, as long as your wallet address is on the whitelist.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-item__title js-faq-title">How often will the rounds be held?</div>
+            <div class="faq-item__hide">
+              <p>Every 24 hours after presale.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-item__title js-faq-title">Will I be able to sell my NFTs on OpenSea?</div>
+            <div class="faq-item__hide">
+              <p>Of course. We've ensured that this will be possible.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-item__title js-faq-title">How do I take advantage of the possibilities of the game universe?</div>
+            <div class="faq-item__hide">
+              <p>You'll need at least 4 characters to do so. The larger your collection and the higher the rarity of your gangsters, the more rewards you will receive.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="team-sec" id="Our_team">
+  <div class="container">
+    <div class="team-sec__wrap">
+      <h2 class="sec-title team-sec__title">Our team</h2>
+      <div class="team">
+        <div class="team-item">
+          <div class="team-item__pic">
+            <img src="img/pic/team-item-1-min.png" alt="">
+          </div>
+          <div class="team-item__main">
+            <div class="team-item__title">HypeTrain</div>
+            <div class="team-item__txt">Real Gangster Manager</div>
+            <ul class="team-item__soc">
+              <li><a href="#" target="_blank" title="LinkedIn"><img src="img/svg/linkedin-icon.svg" alt=""></a></li>
+              <li><a href="#" target="_blank" title="Telegram"><img src="img/svg/telegram-icon.svg" alt=""></a></li>
+              <li><a href="#" target="_blank" title="Twitter"><img src="img/svg/twitter-icon.svg" alt=""></a></li>
+            </ul>
+          </div>
+        </div>        
+        <div class="team-item">
+          <div class="team-item__pic">
+            <img src="img/pic/team-item-2-min.png" alt="">
+          </div>
+          <div class="team-item__main">
+            <div class="team-item__title">Monsterbro</div>
+            <div class="team-item__txt">Real Gangster</div>
+            <ul class="team-item__soc">
+              <li><a href="#" target="_blank" title="LinkedIn"><img src="img/svg/linkedin-icon.svg" alt=""></a></li>
+              <li><a href="#" target="_blank" title="Telegram"><img src="img/svg/telegram-icon.svg" alt=""></a></li>
+              <li><a href="#" target="_blank" title="Twitter"><img src="img/svg/twitter-icon.svg" alt=""></a></li>
+            </ul>
+          </div>
+        </div>        
+        <div class="team-item">
+          <div class="team-item__pic">
+            <img src="img/pic/team-item-3-min.png" alt="">
+          </div>
+          <div class="team-item__main">
+            <div class="team-item__title">Fucking Killer</div>
+            <div class="team-item__txt">Killer</div>
+            <ul class="team-item__soc">
+              <li><a href="#" target="_blank" title="LinkedIn"><img src="img/svg/linkedin-icon.svg" alt=""></a></li>
+              <li><a href="#" target="_blank" title="Telegram"><img src="img/svg/telegram-icon.svg" alt=""></a></li>
+              <li><a href="#" target="_blank" title="Twitter"><img src="img/svg/twitter-icon.svg" alt=""></a></li>
+            </ul>
+          </div>
+        </div>        
+        <div class="team-item">
+          <div class="team-item__pic">
+            <img src="img/pic/team-item-4-min.png" alt="">
+          </div>
+          <div class="team-item__main">
+            <div class="team-item__title">Moneymaker</div>
+            <div class="team-item__txt">Manager</div>
+            <ul class="team-item__soc">
+              <li><a href="#" target="_blank" title="LinkedIn"><img src="img/svg/linkedin-icon.svg" alt=""></a></li>
+              <li><a href="#" target="_blank" title="Telegram"><img src="img/svg/telegram-icon.svg" alt=""></a></li>
+              <li><a href="#" target="_blank" title="Twitter"><img src="img/svg/twitter-icon.svg" alt=""></a></li>
+            </ul>
+          </div>
+        </div>        
+        <div class="team-item">
+          <div class="team-item__pic">
+            <img src="img/pic/team-item-5-min.png" alt="">
+          </div>
+          <div class="team-item__main">
+            <div class="team-item__title">Lolita</div>
+            <div class="team-item__txt">Singer</div>
+            <ul class="team-item__soc">
+              <li><a href="#" target="_blank" title="LinkedIn"><img src="img/svg/linkedin-icon.svg" alt=""></a></li>
+              <li><a href="#" target="_blank" title="Telegram"><img src="img/svg/telegram-icon.svg" alt=""></a></li>
+              <li><a href="#" target="_blank" title="Twitter"><img src="img/svg/twitter-icon.svg" alt=""></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--
+<div class="popup js-popup" id="js-select-a-wallet">
+  <div class="popup__overlay js-popup-overlay"></div>
+  <div class="popup__main popup__main--select-a-wallet">
+    <button class="popup__close js-popup-close">
+      <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1 1L9.5 9.5M18 18L9.5 9.5M9.5 9.5L18 1L1 18" stroke-width="1.5"/>
+      </svg>
+    </button>
+    <h2 class="popup__title">Select a wallet</h2>
+    <ul class="wallets">
+      <li>
+        <a href="#" class="wallet">
+          <div class="wallet__wrap">
+            <div class="wallet__name">Ethereum</div>
+            <div class="wallet__icn"><img src="img/pic/ethereum-min.png" alt="Ethereum"></div>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="wallet">
+          <div class="wallet__wrap">
+            <div class="wallet__name">MetaMask</div>
+            <div class="wallet__icn"><img src="img/pic/metamask-min.png" alt="MetaMask"></div>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="wallet">
+          <div class="wallet__wrap">
+            <div class="wallet__name">Coin98</div>
+            <div class="wallet__icn"><img src="img/pic/coin98-min.png" alt="Coin98"></div>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="wallet">
+          <div class="wallet__wrap">
+            <div class="wallet__name">Trust Wallet</div>
+            <div class="wallet__icn"><img src="img/pic/trustwallet-min.png" alt="Trust Wallet"></div>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="wallet">
+          <div class="wallet__wrap">
+            <div class="wallet__name">Math Wallet</div>
+            <div class="wallet__icn"><img src="img/pic/mathwallet-min.png" alt="Math Wallet"></div>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="wallet">
+          <div class="wallet__wrap">
+            <div class="wallet__name">Wallet Connect <span>(support most wallets)</span></div>
+            <div class="wallet__icn"><img src="img/pic/walletconnect-min.png" alt="Wallet Connect"></div>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+-->
+
+
+<!--
+<div class="popup js-popup" id="js-wallet-connect">
+  <div class="popup__overlay js-popup-overlay"></div>
+  <div class="popup__main popup__main--wallet-connect">
+    <button class="popup__close js-popup-close">
+      <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1 1L9.5 9.5M18 18L9.5 9.5M9.5 9.5L18 1L1 18" stroke-width="1.5"/>
+      </svg>
+    </button>
+    <h2 class="popup__title">Wallet Connect</h2>
+    <img src="img/pic/qr-min.png" alt="">
+  </div>
+</div>
+-->
+
+
+<!--
+<div class="popup js-popup" id="js-not-in-the-gang">
+  <div class="popup__overlay js-popup-overlay"></div>
+  <div class="popup__main popup__main--not-in-the-gang">
+    <button class="popup__close js-popup-close">
+      <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1 1L9.5 9.5M18 18L9.5 9.5M9.5 9.5L18 1L1 18" stroke-width="1.5"/>
+      </svg>
+    </button>
+    <h2 class="popup__title">You are still not in the gang ...</h2>
+    <button class="btn--main popup__btn"><span>mint</span></button>
+  </div>
+</div>
+-->
+
+<div class="popup js-popup" id="js-collection">
+  <div class="popup__overlay js-popup-overlay"></div>
+  <div class="popup__main popup__main--collection">
+    <button class="popup__close js-popup-close">
+      <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1 1L9.5 9.5M18 18L9.5 9.5M9.5 9.5L18 1L1 18" stroke-width="1.5"/>
+      </svg>
+    </button>
+    <h2 class="popup__title">My collection</h2>
+    <div class="swiper my-collection" id="js-collection-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="my-collection-item">
+            <div class="my-collection-item__pic">
+              <img src="img/pic/card-item-min.png" alt="">
+              <div class="my-collection-item__bar">
+                <div class="level medium">medium</div>
+              </div>
+            </div>
+            <div class="my-collection-item__main">
+              <div class="my-collection-item__header">
+                <div class="my-collection-item__hash">#00000</div>
+                <div class="my-collection-item__name">Muscular</div>
+              </div>
+              <div class="my-collection-item__wrap">
+                <div class="my-collection-item__table">
+                  <div class="my-collection-item__table-row">
+                    <div class="my-collection-item__table-name">Power</div>
+                    <div class="my-collection-item__table-val">200</div>
+                  </div>
+                  <div class="my-collection-item__table-row">
+                    <div class="my-collection-item__table-name">Shooting</div>
+                    <div class="my-collection-item__table-val">180</div>
+                  </div>
+                  <div class="my-collection-item__table-row">
+                    <div class="my-collection-item__table-name">Speed</div>
+                    <div class="my-collection-item__table-val">180</div>
+                  </div>
+                  <div class="my-collection-item__table-row">
+                    <div class="my-collection-item__table-name">Authority</div>
+                    <div class="my-collection-item__table-val">210</div>
+                  </div>
+                </div>
+                <div class="my-collection-item__diagramm">
+                  <b>230</b><span>HP</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="my-collection-item">
+            <div class="my-collection-item__pic">
+              <img src="img/pic/card-item-min.png" alt="">
+              <div class="my-collection-item__bar">
+                <div class="level medium">medium</div>
+              </div>
+            </div>
+            <div class="my-collection-item__main">
+              <div class="my-collection-item__header">
+                <div class="my-collection-item__hash">#00000</div>
+                <div class="my-collection-item__name">Muscular</div>
+              </div>
+              <div class="my-collection-item__wrap">
+                <div class="my-collection-item__table">
+                  <div class="my-collection-item__table-row">
+                    <div class="my-collection-item__table-name">Power</div>
+                    <div class="my-collection-item__table-val">200</div>
+                  </div>
+                  <div class="my-collection-item__table-row">
+                    <div class="my-collection-item__table-name">Shooting</div>
+                    <div class="my-collection-item__table-val">180</div>
+                  </div>
+                  <div class="my-collection-item__table-row">
+                    <div class="my-collection-item__table-name">Speed</div>
+                    <div class="my-collection-item__table-val">180</div>
+                  </div>
+                  <div class="my-collection-item__table-row">
+                    <div class="my-collection-item__table-name">Authority</div>
+                    <div class="my-collection-item__table-val">210</div>
+                  </div>
+                </div>
+                <div class="my-collection-item__diagramm">
+                  <b>230</b><span>HP</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="my-collection-item">
+            <div class="my-collection-item__pic">
+              <img src="img/pic/card-item-min.png" alt="">
+              <div class="my-collection-item__bar">
+                <div class="level medium">medium</div>
+              </div>
+            </div>
+            <div class="my-collection-item__main">
+              <div class="my-collection-item__header">
+                <div class="my-collection-item__hash">#00000</div>
+                <div class="my-collection-item__name">Muscular</div>
+              </div>
+              <div class="my-collection-item__wrap">
+                <div class="my-collection-item__table">
+                  <div class="my-collection-item__table-row">
+                    <div class="my-collection-item__table-name">Power</div>
+                    <div class="my-collection-item__table-val">200</div>
+                  </div>
+                  <div class="my-collection-item__table-row">
+                    <div class="my-collection-item__table-name">Shooting</div>
+                    <div class="my-collection-item__table-val">180</div>
+                  </div>
+                  <div class="my-collection-item__table-row">
+                    <div class="my-collection-item__table-name">Speed</div>
+                    <div class="my-collection-item__table-val">180</div>
+                  </div>
+                  <div class="my-collection-item__table-row">
+                    <div class="my-collection-item__table-name">Authority</div>
+                    <div class="my-collection-item__table-val">210</div>
+                  </div>
+                </div>
+                <div class="my-collection-item__diagramm">
+                  <b>230</b><span>HP</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="my-collection-item">
+            <div class="my-collection-item__pic">
+              <img src="img/pic/card-item-min.png" alt="">
+              <div class="my-collection-item__bar">
+                <div class="level medium">medium</div>
+              </div>
+            </div>
+            <div class="my-collection-item__main">
+              <div class="my-collection-item__header">
+                <div class="my-collection-item__hash">#00000</div>
+                <div class="my-collection-item__name">Muscular</div>
+              </div>
+              <div class="my-collection-item__wrap">
+                <div class="my-collection-item__table">
+                  <div class="my-collection-item__table-row">
+                    <div class="my-collection-item__table-name">Power</div>
+                    <div class="my-collection-item__table-val">200</div>
+                  </div>
+                  <div class="my-collection-item__table-row">
+                    <div class="my-collection-item__table-name">Shooting</div>
+                    <div class="my-collection-item__table-val">180</div>
+                  </div>
+                  <div class="my-collection-item__table-row">
+                    <div class="my-collection-item__table-name">Speed</div>
+                    <div class="my-collection-item__table-val">180</div>
+                  </div>
+                  <div class="my-collection-item__table-row">
+                    <div class="my-collection-item__table-name">Authority</div>
+                    <div class="my-collection-item__table-val">210</div>
+                  </div>
+                </div>
+                <div class="my-collection-item__diagramm">
+                  <b>230</b><span>HP</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="my-collection-item">
+            <div class="my-collection-item__pic">
+              <img src="img/pic/card-item-min.png" alt="">
+              <div class="my-collection-item__bar">
+                <div class="level medium">medium</div>
+              </div>
+            </div>
+            <div class="my-collection-item__main">
+              <div class="my-collection-item__header">
+                <div class="my-collection-item__hash">#00000</div>
+                <div class="my-collection-item__name">Muscular</div>
+              </div>
+              <div class="my-collection-item__wrap">
+                <div class="my-collection-item__table">
+                  <div class="my-collection-item__table-row">
+                    <div class="my-collection-item__table-name">Power</div>
+                    <div class="my-collection-item__table-val">200</div>
+                  </div>
+                  <div class="my-collection-item__table-row">
+                    <div class="my-collection-item__table-name">Shooting</div>
+                    <div class="my-collection-item__table-val">180</div>
+                  </div>
+                  <div class="my-collection-item__table-row">
+                    <div class="my-collection-item__table-name">Speed</div>
+                    <div class="my-collection-item__table-val">180</div>
+                  </div>
+                  <div class="my-collection-item__table-row">
+                    <div class="my-collection-item__table-name">Authority</div>
+                    <div class="my-collection-item__table-val">210</div>
+                  </div>
+                </div>
+                <div class="my-collection-item__diagramm">
+                  <b>230</b><span>HP</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="my-collection__btn my-collection__btn--prev" id="js-my-collection-prev">
+        <svg width="45" height="19" viewBox="0 0 45 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M2 9.5L1.36805 10.275L0.417595 9.5L1.36805 8.72499L2 9.5ZM13.0562 17.225C13.4842 17.574 13.5483 18.2039 13.1993 18.6319C12.8502 19.06 12.2203 19.124 11.7923 18.775L13.0562 17.225ZM11.7923 0.22499C12.2203 -0.124026 12.8502 -0.059975 13.1993 0.368051C13.5483 0.796078 13.4842 1.42599 13.0562 1.77501L11.7923 0.22499ZM45 10.5H2V8.5H45V10.5ZM11.7923 18.775L1.36805 10.275L2.63195 8.72499L13.0562 17.225L11.7923 18.775ZM1.36805 8.72499L11.7923 0.22499L13.0562 1.77501L2.63195 10.275L1.36805 8.72499Z" />
+        </svg>
+      </button>
+      <button class="my-collection__btn my-collection__btn--next" id="js-my-collection-next">
+        <svg width="45" height="19" viewBox="0 0 45 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M43 9.5L43.6319 10.275L44.5824 9.5L43.6319 8.72499L43 9.5ZM31.9438 17.225C31.5158 17.574 31.4517 18.2039 31.8007 18.6319C32.1498 19.06 32.7797 19.124 33.2077 18.775L31.9438 17.225ZM33.2077 0.22499C32.7797 -0.124026 32.1498 -0.059975 31.8007 0.368051C31.4517 0.796078 31.5158 1.42599 31.9438 1.77501L33.2077 0.22499ZM0 10.5H43V8.5H0V10.5ZM33.2077 18.775L43.6319 10.275L42.368 8.72499L31.9438 17.225L33.2077 18.775ZM43.6319 8.72499L33.2077 0.22499L31.9438 1.77501L42.368 10.275L43.6319 8.72499Z" />
+        </svg>
+      </button>
+      <div class="swiper-scrollbar my-collection__bar" id="js-my-collection-bar"></div>
+    </div>
+  </div>
+</div>
+
+      </main>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.5.1/snap.svg-min.js"></script>
+    <script src="js/vendors.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+  </body>
+</html>
